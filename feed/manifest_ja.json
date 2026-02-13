@@ -6,7 +6,7 @@
     "date_jst": "2026-02-10",
     "edition": "midday",
     "published_at_jst": "2026-02-10T12:10:00+09:00",
-    "url": "http://192.168.10.135:8000/feed/wrapper_midday_ja.json"
+    "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_midday_ja.json"
   },
   "today": {
     "date_jst": "2026-02-10",
@@ -15,22 +15,22 @@
         "date_jst": "2026-02-10",
         "edition": "morning_flash",
         "published_at_jst": "2026-02-10T07:30:00+09:00",
-        "url": "http://192.168.10.135:8000/feed/wrapper_morning_flash.json"
+        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_flash.json"
       },
       {
         "date_jst": "2026-02-10",
         "edition": "morning_final",
         "published_at_jst": "2026-02-10T08:50:00+09:00",
-        "url": "http://192.168.10.135:8000/feed/wrapper_morning_confirm.json"
+        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_confirm.json"
       },
       {
         "date_jst": "2026-02-10",
         "edition": "midday",
         "published_at_jst": "2026-02-10T12:10:00+09:00",
-        "url": "http://192.168.10.135:8000/feed/wrapper_midday_ja.json"
+        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_midday_ja.json"
       }
     ]
   },
   "archive_days": 90,
-  "archive_index_url": "http://192.168.10.135:8000/feed/archive_index.json"
+  "archive_index_url": "https://gon-sho-864.github.io/jpmw-feed/feed/archive_index.json"
 }
