@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "market": "JP_STOCKS",
+  "date_jst": "2026-02-10",
+  "edition": "morning_flash",
+  "published_at_jst": "2026-02-10T07:30:00+09:00",
+  "content": {
+    "edition": "morning_flash",
+    "coverage_window_hours": 36,
+    "latest_source_time_jst": "2026-02-10T07:20:00+09:00",
+    "audit": {
+      "query_set_completed": true,
+      "coverage_risk": "low",
+      "publish_ok": true,
+      "publish_blockers": [],
+      "query_log": [
+        {
+          "category": "macro",
+          "query": "Japan macro overnight",
+          "top_source_url": "https://www.boj.or.jp/en/"
+        },
+        {
+          "category": "futures",
+          "query": "Nikkei futures overnight",
+          "top_source_url": "https://indexes.nikkei.co.jp/en/nkave"
+        },
+        {
+          "category": "tdnet",
+          "query": "TDnet latest disclosures",
+          "top_source_url": "https://www.release.tdnet.info/inbs/I_main_00.html"
+        },
+        {
+          "category": "major_news",
+          "query": "Japan equities major headlines",
+          "top_source_url": "https://www.reuters.com/world/asia-pacific/"
+        }
+      ]
+    },
+    "market": {
+      "snapshot": [
+        "US tech ended firm overnight.",
+        "JPY stayed in a stable range.",
+        "Domestic large caps may open mixed."
+      ],
+      "drivers": [
+        {
+          "driver": "US yields",
+          "why_today": "Yield stabilization supports risk appetite into Tokyo open.",
+          "confidence": "mid"
+        },
+        {
+          "driver": "FX",
+          "why_today": "Limited JPY volatility keeps exporter assumptions stable.",
+          "confidence": "mid"
+        }
+      ]
+    },
+    "headline_inventory": [
+      {
+        "category": "macro",
+        "headline": "Cabinet Office updates monthly economic watch",
+        "time_jst": "2026-02-10T06:40:00+09:00",
+        "publisher": "Cabinet Office",
+        "url": "https://www5.cao.go.jp/keizai3/getsurei/getsurei-index.html",
+        "related_tickers": [
+          "7203"
+        ]
+      },
+      {
+        "category": "futures",
+        "headline": "Nikkei 225 futures indicate firmer open",
+        "time_jst": "2026-02-10T07:05:00+09:00",
+        "publisher": "Nikkei Indexes",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "related_tickers": [
+          "6501"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Several large-cap issuers post updates pre-open",
+        "time_jst": "2026-02-10T07:10:00+09:00",
+        "publisher": "TDnet",
+        "url": "https://www.release.tdnet.info/inbs/I_main_00.html",
+        "related_tickers": [
+          "8306"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "Global chip demand outlook remains constructive",
+        "time_jst": "2026-02-10T06:55:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/markets/",
+        "related_tickers": [
+          "8035"
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "rank": 1,
+        "ticker": "6501",
+        "name": "Hitachi",
+        "tags": [
+          "Infrastructure",
+          "Digital",
+          "LargeCap"
+        ],
+        "why_today": "Follow-through expected after recent strategic update and strong overseas demand signals.",
+        "watchpoints": [
+          "Opening range volume",
+          "Sector leadership versus TOPIX",
+          "VWAP hold after first pullback"
+        ],
+        "falsifiers": [
+          "Immediate fade below opening low",
+          "Market breadth turns risk-off"
+        ],
+        "red_team": "Positioning may already be crowded after prior outperformance.",
+        "confidence": "mid",
+        "score_total": 78,
+        "score_breakdown": {
+          "catalyst": 20,
+          "evidence": 21,
+          "liquidity": 19,
+          "setup": 18
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "Japan industrial demand outlook",
+            "time_jst": "2026-02-10T06:10:00+09:00",
+            "url": "https://www.reuters.com/markets/asia/"
+          },
+          {
+            "type": "IR",
+            "publisher": "Hitachi",
+            "title": "Investor relations updates",
+            "time_jst": "2026-02-09T16:30:00+09:00",
+            "url": "https://www.hitachi.com/IR-e/index.html"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "ticker": "7203",
+        "name": "Toyota Motor",
+        "tags": [
+          "Auto",
+          "Exporter",
+          "LargeCap"
+        ],
+        "why_today": "Stable FX and resilient overseas auto demand can support relative strength at open.",
+        "watchpoints": [
+          "ADR implied gap",
+          "Supplier basket reaction",
+          "Morning auction imbalance"
+        ],
+        "falsifiers": [
+          "USDJPY reverses sharply",
+          "Auto peers open weak"
+        ],
+        "red_team": "Any sudden yen strength can quickly compress sentiment for exporters.",
+        "confidence": "mid",
+        "score_total": 74,
+        "score_breakdown": {
+          "catalyst": 18,
+          "evidence": 20,
+          "liquidity": 20,
+          "setup": 16
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Nikkei",
+            "title": "Auto supply chain update",
+            "time_jst": "2026-02-10T06:45:00+09:00",
+            "url": "https://www.nikkei.com/"
+          },
+          {
+            "type": "IR",
+            "publisher": "Toyota",
+            "title": "Investor relations information",
+            "time_jst": "2026-02-09T15:00:00+09:00",
+            "url": "https://global.toyota/en/ir/"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "ticker": "8306",
+        "name": "MUFG",
+        "tags": [
+          "Bank",
+          "Rates",
+          "LargeCap"
+        ],
+        "why_today": "Rate-sensitive financials remain in focus with global yields steady overnight.",
+        "watchpoints": [
+          "Relative strength vs banks index",
+          "Opening auction print quality",
+          "Sustained bids above prior close"
+        ],
+        "falsifiers": [
+          "Long-end yields drop",
+          "Financials fail to track futures"
+        ],
+        "red_team": "Macro headline risk can quickly rotate flows away from banks.",
+        "confidence": "mid",
+        "score_total": 72,
+        "score_breakdown": {
+          "catalyst": 17,
+          "evidence": 19,
+          "liquidity": 20,
+          "setup": 16
+        },
+        "sources": [
+          {
+            "type": "JPX",
+            "publisher": "JPX",
+            "title": "Market statistics",
+            "time_jst": "2026-02-10T07:00:00+09:00",
+            "url": "https://www.jpx.co.jp/english/"
+          },
+          {
+            "type": "IR",
+            "publisher": "MUFG",
+            "title": "IR library",
+            "time_jst": "2026-02-09T16:00:00+09:00",
+            "url": "https://www.mufg.jp/english/ir/"
+          }
+        ]
+      }
+    ],
+    "deep_dive": {
+      "ticker": "6501",
+      "title": "Hitachi pre-open setup",
+      "sections": [
+        {
+          "h": "Thesis",
+          "lines": [
+            "Overnight tone supports selective buying in infrastructure names.",
+            "Liquidity profile makes the name suitable for open-driven setups."
+          ]
+        },
+        {
+          "h": "Why today",
+          "lines": [
+            "Global demand headlines and domestic flow positioning align pre-open."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "lines": [
+            "Track opening auction volume and whether price reclaims VWAP after first dip."
+          ]
+        },
+        {
+          "h": "Falsifiers",
+          "lines": [
+            "If price loses opening low with expanding sell volume, thesis weakens."
+          ]
+        },
+        {
+          "h": "Risks",
+          "lines": [
+            "Macro headlines can reverse broad risk appetite quickly."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "IR",
+          "publisher": "Hitachi",
+          "title": "IR update",
+          "time_jst": "2026-02-09T16:30:00+09:00",
+          "url": "https://www.hitachi.com/IR-e/index.html"
+        },
+        {
+          "type": "News",
+          "publisher": "Reuters",
+          "title": "Asia market wrap",
+          "time_jst": "2026-02-10T06:10:00+09:00",
+          "url": "https://www.reuters.com/markets/asia/"
+        }
+      ]
+    },
+    "no_trade_conditions": [
+      "Gap exceeds 3 percent against thesis",
+      "Market-wide halt or disorderly opening",
+      "Key source headline contradicts catalyst"
+    ],
+    "disclaimer": "This app provides information only, not investment advice. Final decisions are yours."
+  }
+}

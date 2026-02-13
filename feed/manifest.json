@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "market": "JP_STOCKS",
+  "timezone": "Asia/Tokyo",
+  "latest": {
+    "date_jst": "2026-02-10",
+    "edition": "midday",
+    "published_at_jst": "2026-02-10T12:10:00+09:00",
+    "url": "http://192.168.10.135:8000/feed/wrapper_midday.json"
+  },
+  "today": {
+    "date_jst": "2026-02-10",
+    "editions": [
+      {
+        "date_jst": "2026-02-10",
+        "edition": "morning_flash",
+        "published_at_jst": "2026-02-10T07:30:00+09:00",
+        "url": "http://192.168.10.135:8000/feed/wrapper_morning_flash.json"
+      },
+      {
+        "date_jst": "2026-02-10",
+        "edition": "morning_final",
+        "published_at_jst": "2026-02-10T08:50:00+09:00",
+        "url": "http://192.168.10.135:8000/feed/wrapper_morning_confirm.json"
+      },
+      {
+        "date_jst": "2026-02-10",
+        "edition": "midday",
+        "published_at_jst": "2026-02-10T12:10:00+09:00",
+        "url": "http://192.168.10.135:8000/feed/wrapper_midday.json"
+      }
+    ]
+  },
+  "archive_days": 90,
+  "archive_index_url": "http://192.168.10.135:8000/feed/archive_index.json"
+}

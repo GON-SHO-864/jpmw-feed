@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "market": "JP_STOCKS",
+  "date_jst": "2026-02-10",
+  "edition": "midday",
+  "published_at_jst": "2026-02-10T12:10:00+09:00",
+  "content": {
+    "edition": "midday",
+    "coverage_window_hours": 36,
+    "latest_source_time_jst": "2026-02-10T12:03:00+09:00",
+    "audit": {
+      "query_set_completed": true,
+      "coverage_risk": "low",
+      "publish_ok": true,
+      "publish_blockers": [],
+      "query_log": [
+        {
+          "category": "macro",
+          "query": "mid-session macro and policy updates",
+          "top_source_url": "https://www.boj.or.jp/en/"
+        },
+        {
+          "category": "futures",
+          "query": "afternoon futures indication",
+          "top_source_url": "https://indexes.nikkei.co.jp/en/nkave"
+        },
+        {
+          "category": "tdnet",
+          "query": "intraday TDnet disclosures",
+          "top_source_url": "https://www.release.tdnet.info/inbs/I_main_00.html"
+        },
+        {
+          "category": "major_news",
+          "query": "midday major headlines for Japan equities",
+          "top_source_url": "https://www.reuters.com/world/asia-pacific/"
+        }
+      ]
+    },
+    "market": {
+      "snapshot": [
+        "Morning gains narrowed into lunch break.",
+        "Leadership rotated from chips to defensives.",
+        "Liquidity expected to thin before afternoon restart."
+      ],
+      "drivers": [
+        {
+          "driver": "Rotation",
+          "why_today": "Fast sector rotation suggests selective setups in the second session.",
+          "confidence": "mid"
+        },
+        {
+          "driver": "Index positioning",
+          "why_today": "Index futures stayed constructive despite reduced momentum.",
+          "confidence": "mid"
+        }
+      ]
+    },
+    "headline_inventory": [
+      {
+        "category": "macro",
+        "headline": "No major policy surprise by midday",
+        "time_jst": "2026-02-10T11:40:00+09:00",
+        "publisher": "BoJ",
+        "url": "https://www.boj.or.jp/en/",
+        "related_tickers": [
+          "8306"
+        ]
+      },
+      {
+        "category": "futures",
+        "headline": "Nikkei futures hold positive basis",
+        "time_jst": "2026-02-10T11:55:00+09:00",
+        "publisher": "Nikkei Indexes",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "related_tickers": [
+          "8035"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Lunchtime disclosure flow remains moderate",
+        "time_jst": "2026-02-10T11:50:00+09:00",
+        "publisher": "TDnet",
+        "url": "https://www.release.tdnet.info/inbs/I_main_00.html",
+        "related_tickers": [
+          "6501"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "Global market risk tone steady before Europe",
+        "time_jst": "2026-02-10T11:35:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/markets/",
+        "related_tickers": [
+          "7203"
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "rank": 1,
+        "ticker": "8035",
+        "name": "東京エレクトロンこれは英語版だよ",
+        "tags": [
+          "Semiconductor",
+          "Momentum",
+          "LargeCap"
+        ],
+        "why_today": "Despite intraday rotation, chip equipment remains a key driver for index direction.",
+        "watchpoints": [
+          "Afternoon reopening auction",
+          "Relative strength versus SOX-linked peers",
+          "Recovery above midday VWAP"
+        ],
+        "falsifiers": [
+          "Immediate rejection on reopen",
+          "US chip futures turn negative"
+        ],
+        "red_team": "Momentum exhaustion risk rises after a volatile morning swing.",
+        "confidence": "mid",
+        "score_total": 77,
+        "score_breakdown": {
+          "catalyst": 20,
+          "evidence": 20,
+          "liquidity": 19,
+          "setup": 18
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "Chip sector midday check",
+            "time_jst": "2026-02-10T11:35:00+09:00",
+            "url": "https://www.reuters.com/markets/asia/"
+          },
+          {
+            "type": "IR",
+            "publisher": "Tokyo Electron",
+            "title": "IR information",
+            "time_jst": "2026-02-10T10:30:00+09:00",
+            "url": "https://www.tel.com/ir/"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "ticker": "6501",
+        "name": "Hitachi",
+        "tags": [
+          "Infrastructure",
+          "Defensive",
+          "LargeCap"
+        ],
+        "why_today": "Rotation favored quality defensives, improving afternoon risk-reward profile.",
+        "watchpoints": [
+          "Reopen spread quality",
+          "Bid support near morning base",
+          "Institutional block activity"
+        ],
+        "falsifiers": [
+          "Breakdown below morning base",
+          "Index breadth deteriorates"
+        ],
+        "red_team": "If growth recovers quickly, defensive rotation may unwind.",
+        "confidence": "mid",
+        "score_total": 74,
+        "score_breakdown": {
+          "catalyst": 18,
+          "evidence": 19,
+          "liquidity": 19,
+          "setup": 18
+        },
+        "sources": [
+          {
+            "type": "IR",
+            "publisher": "Hitachi",
+            "title": "IR library",
+            "time_jst": "2026-02-10T10:45:00+09:00",
+            "url": "https://www.hitachi.com/IR-e/index.html"
+          },
+          {
+            "type": "News",
+            "publisher": "Nikkei",
+            "title": "Domestic infrastructure demand update",
+            "time_jst": "2026-02-10T11:15:00+09:00",
+            "url": "https://www.nikkei.com/"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "ticker": "8306",
+        "name": "MUFG",
+        "tags": [
+          "Bank",
+          "Rates",
+          "Liquidity"
+        ],
+        "why_today": "Banks kept steady bids with no policy shock by midday.",
+        "watchpoints": [
+          "Afternoon opening imbalance",
+          "Yield sensitivity headlines",
+          "Continuation above lunch break level"
+        ],
+        "falsifiers": [
+          "Bond rally compresses financials",
+          "Risk-off move into close"
+        ],
+        "red_team": "Late-day de-risking could pressure high-beta financial names.",
+        "confidence": "mid",
+        "score_total": 73,
+        "score_breakdown": {
+          "catalyst": 18,
+          "evidence": 19,
+          "liquidity": 19,
+          "setup": 17
+        },
+        "sources": [
+          {
+            "type": "JPX",
+            "publisher": "JPX",
+            "title": "Mid-session statistics",
+            "time_jst": "2026-02-10T11:45:00+09:00",
+            "url": "https://www.jpx.co.jp/english/"
+          },
+          {
+            "type": "IR",
+            "publisher": "MUFG",
+            "title": "IR updates",
+            "time_jst": "2026-02-10T10:50:00+09:00",
+            "url": "https://www.mufg.jp/english/ir/"
+          }
+        ]
+      }
+    ],
+    "deep_dive": {
+      "ticker": "8035",
+      "title": "Tokyo Electron afternoon scenario",
+      "sections": [
+        {
+          "h": "Thesis",
+          "lines": [
+            "Name remains central to index momentum despite intraday rotation.",
+            "Reopen auction can define directional bias for the second session."
+          ]
+        },
+        {
+          "h": "Why today",
+          "lines": [
+            "Cross-market semiconductor narrative is still active into midday."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "lines": [
+            "Observe whether early afternoon reclaims VWAP with stronger volume."
+          ]
+        },
+        {
+          "h": "Falsifiers",
+          "lines": [
+            "Failure to hold reopen level with expanding sell pressure invalidates setup."
+          ]
+        },
+        {
+          "h": "Risks",
+          "lines": [
+            "Thin lunchtime liquidity can amplify false breaks."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "IR",
+          "publisher": "Tokyo Electron",
+          "title": "IR site",
+          "time_jst": "2026-02-10T10:30:00+09:00",
+          "url": "https://www.tel.com/ir/"
+        },
+        {
+          "type": "News",
+          "publisher": "Reuters",
+          "title": "Semiconductor update",
+          "time_jst": "2026-02-10T11:35:00+09:00",
+          "url": "https://www.reuters.com/markets/asia/"
+        }
+      ]
+    },
+    "no_trade_conditions": [
+      "Reopen auction spread is disorderly",
+      "Headline risk invalidates sector thesis",
+      "Price action remains range-bound without volume"
+    ],
+    "disclaimer": "This app provides information only, not investment advice. Final decisions are yours."
+  }
+}

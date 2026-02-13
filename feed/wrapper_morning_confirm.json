@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "market": "JP_STOCKS",
+  "date_jst": "2026-02-10",
+  "edition": "morning_final",
+  "published_at_jst": "2026-02-10T08:50:00+09:00",
+  "content": {
+    "edition": "morning_final",
+    "coverage_window_hours": 36,
+    "latest_source_time_jst": "2026-02-10T08:43:00+09:00",
+    "audit": {
+      "query_set_completed": true,
+      "coverage_risk": "low",
+      "publish_ok": true,
+      "publish_blockers": [],
+      "query_log": [
+        {
+          "category": "macro",
+          "query": "Japan macro data and policy headlines",
+          "top_source_url": "https://www.boj.or.jp/en/"
+        },
+        {
+          "category": "futures",
+          "query": "Nikkei futures and overnight close",
+          "top_source_url": "https://indexes.nikkei.co.jp/en/nkave"
+        },
+        {
+          "category": "tdnet",
+          "query": "Morning TDnet disclosures",
+          "top_source_url": "https://www.release.tdnet.info/inbs/I_main_00.html"
+        },
+        {
+          "category": "major_news",
+          "query": "Major Japan market headlines",
+          "top_source_url": "https://www.reuters.com/world/asia-pacific/"
+        }
+      ]
+    },
+    "market": {
+      "snapshot": [
+        "Tokyo open showed balanced breadth.",
+        "Semiconductor names outperformed in early trade.",
+        "Banks held gains as rates stayed firm."
+      ],
+      "drivers": [
+        {
+          "driver": "Semiconductor demand narrative",
+          "why_today": "Global demand headlines supported chip equipment bids.",
+          "confidence": "mid"
+        },
+        {
+          "driver": "Rates",
+          "why_today": "Stable yields supported financial sector tone.",
+          "confidence": "mid"
+        }
+      ]
+    },
+    "headline_inventory": [
+      {
+        "category": "macro",
+        "headline": "Cabinet Office confirms monthly baseline view",
+        "time_jst": "2026-02-10T08:15:00+09:00",
+        "publisher": "Cabinet Office",
+        "url": "https://www5.cao.go.jp/keizai3/getsurei/getsurei-index.html",
+        "related_tickers": [
+          "7203"
+        ]
+      },
+      {
+        "category": "futures",
+        "headline": "Nikkei futures premium narrows after open",
+        "time_jst": "2026-02-10T08:30:00+09:00",
+        "publisher": "Nikkei Indexes",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "related_tickers": [
+          "8306"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Additional issuer filings posted",
+        "time_jst": "2026-02-10T08:32:00+09:00",
+        "publisher": "TDnet",
+        "url": "https://www.release.tdnet.info/inbs/I_main_00.html",
+        "related_tickers": [
+          "6501"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "Global autos maintain volume momentum",
+        "time_jst": "2026-02-10T08:05:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/markets/",
+        "related_tickers": [
+          "7203"
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "rank": 1,
+        "ticker": "7203",
+        "name": "Toyota Motor",
+        "tags": [
+          "Auto",
+          "Exporter",
+          "Liquidity"
+        ],
+        "why_today": "Early cash session flow remained constructive and exporter basket held relative strength.",
+        "watchpoints": [
+          "09:00 to 09:30 trend persistence",
+          "Sector ETF relative strength",
+          "Support near session VWAP"
+        ],
+        "falsifiers": [
+          "Break below first-hour low",
+          "Sharp yen appreciation"
+        ],
+        "red_team": "Momentum can fade if broader index rotation turns defensive.",
+        "confidence": "mid",
+        "score_total": 80,
+        "score_breakdown": {
+          "catalyst": 21,
+          "evidence": 21,
+          "liquidity": 20,
+          "setup": 18
+        },
+        "sources": [
+          {
+            "type": "IR",
+            "publisher": "Toyota",
+            "title": "IR information",
+            "time_jst": "2026-02-10T08:20:00+09:00",
+            "url": "https://global.toyota/en/ir/"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "Autos market context",
+            "time_jst": "2026-02-10T08:05:00+09:00",
+            "url": "https://www.reuters.com/markets/asia/"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "ticker": "8035",
+        "name": "Tokyo Electron",
+        "tags": [
+          "Semiconductor",
+          "Growth",
+          "LargeCap"
+        ],
+        "why_today": "Chip-equipment peers were bid globally and domestic momentum stayed positive after open.",
+        "watchpoints": [
+          "Lead-lag versus peers",
+          "Opening gap fill behavior",
+          "Volume into highs"
+        ],
+        "falsifiers": [
+          "Sector index reverses under VWAP",
+          "US chip futures weaken"
+        ],
+        "red_team": "High beta profile increases downside speed if risk sentiment turns.",
+        "confidence": "mid",
+        "score_total": 79,
+        "score_breakdown": {
+          "catalyst": 21,
+          "evidence": 20,
+          "liquidity": 19,
+          "setup": 19
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Nikkei",
+            "title": "Semiconductor sector update",
+            "time_jst": "2026-02-10T08:18:00+09:00",
+            "url": "https://www.nikkei.com/"
+          },
+          {
+            "type": "IR",
+            "publisher": "Tokyo Electron",
+            "title": "Investor relations",
+            "time_jst": "2026-02-10T08:00:00+09:00",
+            "url": "https://www.tel.com/ir/"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "ticker": "8306",
+        "name": "MUFG",
+        "tags": [
+          "Bank",
+          "Rates",
+          "Value"
+        ],
+        "why_today": "Financials maintained steady demand as yields remained supportive.",
+        "watchpoints": [
+          "Banks index confirmation",
+          "Pullback buy response",
+          "Order book depth after 09:30"
+        ],
+        "falsifiers": [
+          "Yield curve flattening headlines",
+          "Failed rebound attempts"
+        ],
+        "red_team": "Macro surprises can abruptly reduce appetite for cyclical financial exposure.",
+        "confidence": "mid",
+        "score_total": 75,
+        "score_breakdown": {
+          "catalyst": 18,
+          "evidence": 20,
+          "liquidity": 20,
+          "setup": 17
+        },
+        "sources": [
+          {
+            "type": "JPX",
+            "publisher": "JPX",
+            "title": "Market data",
+            "time_jst": "2026-02-10T08:25:00+09:00",
+            "url": "https://www.jpx.co.jp/english/"
+          },
+          {
+            "type": "IR",
+            "publisher": "MUFG",
+            "title": "IR portal",
+            "time_jst": "2026-02-10T08:10:00+09:00",
+            "url": "https://www.mufg.jp/english/ir/"
+          }
+        ]
+      }
+    ],
+    "deep_dive": {
+      "ticker": "7203",
+      "title": "Toyota trend confirmation",
+      "sections": [
+        {
+          "h": "Thesis",
+          "lines": [
+            "Exporter tone remains stable with manageable FX movement.",
+            "Early flow confirmed continuation conditions for momentum traders."
+          ]
+        },
+        {
+          "h": "Why today",
+          "lines": [
+            "Overnight sector context and opening tape both support the setup."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "lines": [
+            "Monitor whether dips toward VWAP are bought with rising volume."
+          ]
+        },
+        {
+          "h": "Falsifiers",
+          "lines": [
+            "Loss of first-hour low would invalidate the continuation thesis."
+          ]
+        },
+        {
+          "h": "Risks",
+          "lines": [
+            "Unexpected FX shocks can dominate stock-specific drivers."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "IR",
+          "publisher": "Toyota",
+          "title": "IR update",
+          "time_jst": "2026-02-10T08:20:00+09:00",
+          "url": "https://global.toyota/en/ir/"
+        },
+        {
+          "type": "News",
+          "publisher": "Reuters",
+          "title": "Asia autos flow",
+          "time_jst": "2026-02-10T08:05:00+09:00",
+          "url": "https://www.reuters.com/markets/asia/"
+        }
+      ]
+    },
+    "no_trade_conditions": [
+      "Risk sentiment flips on macro shock",
+      "Price loses first-hour low with heavy volume",
+      "Source update invalidates core catalyst"
+    ],
+    "disclaimer": "This app provides information only, not investment advice. Final decisions are yours."
+  }
+}
