@@ -1,0 +1,595 @@
+{
+  "schema_version": 1,
+  "market": "JP_STOCKS",
+  "date_jst": "2026-03-13",
+  "edition": "morning_flash",
+  "published_at_jst": "2026-03-12T23:51:08+09:00",
+  "content": {
+    "edition": "morning_flash",
+    "coverage_window_hours": 36,
+    "latest_source_time_jst": "2026-03-12T23:23:00+09:00",
+    "audit": {
+      "query_set_completed": true,
+      "coverage_risk": "mid",
+      "publish_ok": true,
+      "publish_blockers": [],
+      "query_log": [
+        {
+          "category": "macro",
+          "query": "2026年3月12日 米株先物 10年国債利回り ドル円 原油 銅 Reuters",
+          "top_source_url": "https://www.reuters.com/world/asia-pacific/us-dollar-hovers-near-2026-highs-oils-rise-spurs-hawkish-central-bank-bets-2026-03-12/"
+        },
+        {
+          "category": "macro",
+          "query": "site:reuters.com March 12 2026 S&P 500 futures down Reuters oil 2026-03-12",
+          "top_source_url": "https://www.reuters.com/world/china/global-markets-view-europe-newsletter-2026-03-12/"
+        },
+        {
+          "category": "futures",
+          "query": "2026年3月13日 日経225先物 TOPIX先物 CME SGX 大阪取引所 Reuters",
+          "top_source_url": "https://nikkei225jp.com/cme/"
+        },
+        {
+          "category": "tdnet",
+          "query": "site:minkabu.jp 5572 Ridge-i 2026 3 12 業績予想 修正 適時開示",
+          "top_source_url": "https://minkabu.jp/news/4464754"
+        },
+        {
+          "category": "major_news",
+          "query": "2026年3月12日 ホンダ EV 開発見直し 特損 ロイター",
+          "top_source_url": "https://jp.reuters.com/markets/world-indices/VVK5QFFGSZPXDMKBTQCJWKC6DU-2026-03-12/"
+        },
+        {
+          "category": "major_news",
+          "query": "site:reuters.com March 12 2026 Dow futures Reuters oil tanker attacks",
+          "top_source_url": "https://www.reuters.com/business/wall-street-futures-drop-middle-east-tensions-lift-oil-above-100-2026-03-12/"
+        }
+      ]
+    },
+    "market": {
+      "snapshot": [
+        "CME Nikkei 225 June futures were 53,670 at 23:23 JST, down 905 versus the prior close, so index tone is soft into Friday's open.",
+        "Brent moved back above $100 and WTI traded around $94. That helps upstream energy, while transport and broad cyclicals stay exposed.",
+        "USD/JPY was around 159 at Tokyo 15:00 after touching 159.24, keeping both exporter support and intervention risk on the table.",
+        "Reuters' Europe-morning note had S&P 500 and Nasdaq futures each down 1%. U.S. cash trading is still open at publication, so this is a flash note rather than a full close-based read."
+      ],
+      "drivers": [
+        {
+          "driver": "Oil shock, a weaker yen and softer index futures",
+          "why_today": "CME Nikkei futures at 53,670, Brent back above $100 and USD/JPY near 159 point to a weaker index open but relative support for upstream energy.",
+          "confidence": "high"
+        },
+        {
+          "driver": "An unusually strong after-close disclosure slate",
+          "why_today": "Kyoto FG on shareholder returns, Ridge-i on a large AI order plus a guidance raise, and Timee on an outlook raise give stock-specific setups a chance to beat the tape.",
+          "confidence": "high"
+        }
+      ]
+    },
+    "headline_inventory": [
+      {
+        "category": "futures",
+        "headline": "CME Nikkei 225 futures were 53,670 at 23:23 JST, down 905 from the prior close",
+        "time_jst": "2026-03-12T23:23:00+09:00",
+        "publisher": "nikkei225jp.com",
+        "url": "https://nikkei225jp.com/cme/",
+        "related_tickers": [
+          "5844",
+          "1605",
+          "6098"
+        ]
+      },
+      {
+        "category": "macro",
+        "headline": "USD/JPY was around 159 at Tokyo 15:00 after briefly touching 159.24",
+        "time_jst": "2026-03-12T15:23:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/UFN6BGPGGBK4XDMXVMPM4OULXQ-2026-03-12/",
+        "related_tickers": [
+          "1605",
+          "6098",
+          "7267"
+        ]
+      },
+      {
+        "category": "macro",
+        "headline": "Brent moved back above $100 while S&P 500 and Nasdaq futures were each down 1%",
+        "time_jst": "2026-03-12T14:33:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-view-europe-newsletter-2026-03-12/",
+        "related_tickers": [
+          "1605",
+          "1662",
+          "6098"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Kyoto FG disclosed a larger buyback authorization and a longer buyback window",
+        "time_jst": "2026-03-11T15:30:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4463637",
+        "related_tickers": [
+          "5844"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Ridge-i disclosed a 410 million yen AI project order from SBI Group",
+        "time_jst": "2026-03-12T17:00:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4464753",
+        "related_tickers": [
+          "5572",
+          "8473"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Timee raised its FY ending April 2026 outlook",
+        "time_jst": "2026-03-12T15:30:00+09:00",
+        "publisher": "株探",
+        "url": "https://minkabu.jp/news/4464452",
+        "related_tickers": [
+          "215A"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "Honda swung to a full-year loss outlook after canceling three EV models",
+        "time_jst": "2026-03-12T16:02:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/world-indices/VVK5QFFGSZPXDMKBTQCJWKC6DU-2026-03-12/",
+        "related_tickers": [
+          "7267",
+          "6758"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "U.S. stocks fell about 1% on Middle East tensions and private-credit worries",
+        "time_jst": "2026-03-12T17:00:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/wall-street-futures-drop-middle-east-tensions-lift-oil-above-100-2026-03-12/",
+        "related_tickers": [
+          "1605",
+          "6098",
+          "7267"
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "rank": 1,
+        "ticker": "5844",
+        "name": "Kyoto Financial Group",
+        "tags": [
+          "Guidance raise",
+          "Dividend hike",
+          "Buyback expansion"
+        ],
+        "why_today": "It raised FY guidance on Nintendo share-sale gains and paired that with a dividend increase and a larger buyback. The disclosure quality is high enough to outrun weak index tone.",
+        "watchpoints": [
+          "Can it hold the 4,300 yen area after the opening print",
+          "Does volume stay alive after the first burst",
+          "Does it outperform the regional-bank group rather than simply follow it"
+        ],
+        "falsifiers": [
+          "The market focuses only on the one-off nature of the share-sale gain",
+          "Thursday's rally already priced in the stronger shareholder returns"
+        ],
+        "red_team": "The earnings jump is driven more by share-sale gains than by core operations, so the initial re-rating can fade.",
+        "confidence": "high",
+        "score_total": 89,
+        "score_breakdown": {
+          "catalyst": 37,
+          "evidence": 18,
+          "liquidity": 19,
+          "setup": 15
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "京都ＦＧ(5844) 自己株式の取得枠拡大および取得期間延長に関するお知らせ",
+            "time_jst": "2026-03-11T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4463637"
+          },
+          {
+            "type": "News",
+            "publisher": "フィスコ",
+            "title": "京都ＦＧ---大幅続伸、大幅な増配や自社株買いの上限引き上げを好感",
+            "time_jst": "2026-03-12T12:48:00+09:00",
+            "url": "https://minkabu.jp/news/4464303"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "ticker": "5572",
+        "name": "Ridge-i",
+        "tags": [
+          "Guidance raise",
+          "AI order",
+          "SBI tie-up"
+        ],
+        "why_today": "A FY guidance raise and a 410 million yen AI order from SBI Group hit at the same time. Both theme appeal and numeric support are there.",
+        "watchpoints": [
+          "Does the market read the 410 million yen order as the start of a wider pipeline rather than a one-off",
+          "Can it absorb profit-taking after a likely gap-up",
+          "Does SBI-related cross-sell speculation broaden"
+        ],
+        "falsifiers": [
+          "Small-cap growth profit-taking takes over immediately",
+          "Investors question the repeatability of the order flow"
+        ],
+        "red_team": "The disclosure is strong, but Growth-market names can turn into pure volatility trades very quickly.",
+        "confidence": "high",
+        "score_total": 81,
+        "score_breakdown": {
+          "catalyst": 35,
+          "evidence": 18,
+          "liquidity": 9,
+          "setup": 19
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "リッジアイ(5572) 資本業務提携先であるSBIグループからのAI関連プロジェクト大型受注のお知らせ",
+            "time_jst": "2026-03-12T17:00:00+09:00",
+            "url": "https://minkabu.jp/news/4464753"
+          },
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "リッジアイ(5572) 2026年７月期連結業績予想の修正に関するお知らせ",
+            "time_jst": "2026-03-12T17:00:00+09:00",
+            "url": "https://minkabu.jp/news/4464754"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "ticker": "215A",
+        "name": "Timee",
+        "tags": [
+          "Outlook raise",
+          "Strong progress",
+          "Growth"
+        ],
+        "why_today": "It lifted its FY ending April 2026 range after strong first-quarter progress. For growth, this is one of the cleaner number-backed releases.",
+        "watchpoints": [
+          "Does the market keep rewarding the first-quarter margin improvement after the open",
+          "Does the upper end of the revised range become the anchor",
+          "Can it outperform a weak broader growth tape"
+        ],
+        "falsifiers": [
+          "Short-term money exits after the event passes",
+          "Investors lean too hard on the wide guidance range"
+        ],
+        "red_team": "Even good growth earnings can fail to travel if the wider growth board opens heavy.",
+        "confidence": "high",
+        "score_total": 78,
+        "score_breakdown": {
+          "catalyst": 32,
+          "evidence": 17,
+          "liquidity": 12,
+          "setup": 17
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "株探",
+            "title": "タイミー、今期経常を37億～40億円に上方修正",
+            "time_jst": "2026-03-12T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4464452"
+          },
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "タイミー(215A) 2026年4月期 第1四半期決算説明資料",
+            "time_jst": "2026-03-12T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4464506"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "ticker": "1605",
+        "name": "INPEX",
+        "tags": [
+          "Oil spike",
+          "Weaker yen",
+          "Macro hedge"
+        ],
+        "why_today": "Brent is back above $100 and USD/JPY is near 159. In a weak index tape, upstream energy remains a relative-strength candidate.",
+        "watchpoints": [
+          "Does the stock keep tracking oil higher after the open",
+          "Can it stay relatively firm against broader index selling",
+          "Does the weaker-yen tailwind remain intact"
+        ],
+        "falsifiers": [
+          "Oil reverses sharply lower on reserve-release hopes",
+          "A broader market drop drags resource shares down with everything else"
+        ],
+        "red_team": "This is a headline-driven commodity trade, so one geopolitical swing can flip the setup quickly.",
+        "confidence": "mid",
+        "score_total": 76,
+        "score_breakdown": {
+          "catalyst": 30,
+          "evidence": 14,
+          "liquidity": 20,
+          "setup": 12
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "Dollar nears 2026 highs as volatile oil fans inflation spike fears",
+            "time_jst": "2026-03-12T11:21:00+09:00",
+            "url": "https://www.reuters.com/world/asia-pacific/us-dollar-hovers-near-2026-highs-oils-rise-spurs-hawkish-central-bank-bets-2026-03-12/"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "今日の株式見通し＝軟調、原油高に反応",
+            "time_jst": "2026-03-12T07:51:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/56ZLVIE3DFNIPG7IZT3GEI7IDM-2026-03-11/"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "ticker": "6098",
+        "name": "Recruit Holdings",
+        "tags": [
+          "Treasury cancellation",
+          "Large cap",
+          "Supply support"
+        ],
+        "why_today": "It disclosed cancellation of treasury stock equal to 5.84% of shares outstanding. That makes it a liquid supply-improvement name even in shaky index conditions.",
+        "watchpoints": [
+          "Can it stay relatively firm even if the index opens weak",
+          "Does the market re-rate the size of the cancellation",
+          "Can the capital-action angle beat wider growth selling"
+        ],
+        "falsifiers": [
+          "Nasdaq weakness spills over into online-service and talent names",
+          "The cancellation is treated as already priced in"
+        ],
+        "red_team": "Because this is a mega-cap, the catalyst may improve supply but not necessarily force an immediate gap-and-go move.",
+        "confidence": "mid",
+        "score_total": 74,
+        "score_breakdown": {
+          "catalyst": 27,
+          "evidence": 17,
+          "liquidity": 20,
+          "setup": 10
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "リクルート(6098) 自己株式の消却について",
+            "time_jst": "2026-03-11T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4463640"
+          },
+          {
+            "type": "News",
+            "publisher": "株探",
+            "title": "本日の〖自社株買い〗銘柄 (11日大引け後 発表分)",
+            "time_jst": "2026-03-11T19:20:00+09:00",
+            "url": "https://minkabu.jp/news/4463893"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "ticker": "1662",
+        "name": "JAPEX",
+        "tags": [
+          "Oil spike",
+          "Gas exposure",
+          "Resources"
+        ],
+        "why_today": "WTI around $94 and Brent above $100 keep the secondary resource-chain trade alive behind INPEX.",
+        "watchpoints": [
+          "Does money rotate from INPEX into secondary oil and gas exposure",
+          "Does volume expand after the opening print",
+          "Does gas exposure add to the simple oil trade"
+        ],
+        "falsifiers": [
+          "Capital stays concentrated in INPEX as the primary beneficiary",
+          "Oil loses momentum and the sympathy bid stops"
+        ],
+        "red_team": "This is more of a secondary beneficiary than a pure first-order winner, so the trade can lose energy quickly.",
+        "confidence": "mid",
+        "score_total": 72,
+        "score_breakdown": {
+          "catalyst": 29,
+          "evidence": 13,
+          "liquidity": 17,
+          "setup": 13
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "Dollar nears 2026 highs as volatile oil fans inflation spike fears",
+            "time_jst": "2026-03-12T11:21:00+09:00",
+            "url": "https://www.reuters.com/world/asia-pacific/us-dollar-hovers-near-2026-highs-oils-rise-spurs-hawkish-central-bank-bets-2026-03-12/"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "今日の株式見通し＝軟調、原油高に反応",
+            "time_jst": "2026-03-12T07:51:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/56ZLVIE3DFNIPG7IZT3GEI7IDM-2026-03-11/"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "ticker": "6118",
+        "name": "Aida Engineering",
+        "tags": [
+          "Treasury cancellation",
+          "Capital policy",
+          "Machinery"
+        ],
+        "why_today": "It announced cancellation of 4.3 million treasury shares, equal to 6.72% of shares outstanding. That's a meaningful capital-policy signal.",
+        "watchpoints": [
+          "Does the market reward the cancellation ratio cleanly at the open",
+          "Can it absorb weakness in machinery peers",
+          "Does buying re-emerge after the first round of selling"
+        ],
+        "falsifiers": [
+          "The broad tape overwhelms the capital-action story",
+          "Investors see the cancellation as largely pre-telegraphed"
+        ],
+        "red_team": "The capital signal is clear, but without a parallel earnings angle, follow-through buying can be limited.",
+        "confidence": "mid",
+        "score_total": 68,
+        "score_breakdown": {
+          "catalyst": 27,
+          "evidence": 16,
+          "liquidity": 15,
+          "setup": 10
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "アイダ(6118) 自己株式の消却に関するお知らせ",
+            "time_jst": "2026-03-12T16:00:00+09:00",
+            "url": "https://minkabu.jp/news/4464671"
+          },
+          {
+            "type": "News",
+            "publisher": "株探",
+            "title": "本日の〖自社株買い〗銘柄 (12日大引け後 発表分)",
+            "time_jst": "2026-03-12T19:20:00+09:00",
+            "url": "https://minkabu.jp/news/4464826"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "ticker": "1433",
+        "name": "Bestera",
+        "tags": [
+          "Earnings upside",
+          "AI collaboration",
+          "Small cap"
+        ],
+        "why_today": "It paired an earnings beat versus guidance with an AI implementation project alongside HEROZ. The existing niche story now has an AI overlay as well.",
+        "watchpoints": [
+          "Which part of the message leads at the open: earnings upside or the AI angle",
+          "Can it hold any opening gap rather than instantly fade",
+          "Does the move come with real turnover"
+        ],
+        "falsifiers": [
+          "The AI collaboration is treated as a short-lived theme headline",
+          "Small-cap profit-taking turns it into a gap-and-fade"
+        ],
+        "red_team": "The messages are somewhat split, so the market may struggle to decide which part deserves the premium.",
+        "confidence": "mid",
+        "score_total": 65,
+        "score_breakdown": {
+          "catalyst": 29,
+          "evidence": 15,
+          "liquidity": 8,
+          "setup": 13
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "ベステラ(1433) HEROZ株式会社とのAI技術実装のための共同プロジェクトに関するお知らせ",
+            "time_jst": "2026-03-12T15:30:00+09:00",
+            "url": "https://minkabu.jp/stock/1433/news/4464541"
+          },
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "ベステラ(1433) 業績予想と実績値との差異に関するお知らせ",
+            "time_jst": "2026-03-12T18:00:00+09:00",
+            "url": "https://minkabu.jp/news/4464794"
+          }
+        ]
+      }
+    ],
+    "deep_dive": {
+      "ticker": "5844",
+      "title": "Kyoto FG: One-off gains or not, the open should test the strength of the return reset",
+      "sections": [
+        {
+          "h": "Thesis",
+          "lines": [
+            "This is less a core-earnings story than a capital-return re-rating story, and that still matters into the open.",
+            "Among regional banks, liquidity is sufficient for the market to express the view quickly."
+          ]
+        },
+        {
+          "h": "Why today",
+          "lines": [
+            "After the March 11 close, Kyoto FG disclosed a guidance raise, a bigger year-end dividend and an expanded buyback.",
+            "The stock already made a new high intraday on March 12, so Friday's open is about whether follow-through survives."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "lines": [
+            "Can it hold the 4,300 yen area after the opening print instead of filling the gap immediately.",
+            "Does volume remain active after the first 30 minutes, and does it keep outperforming the broader regional-bank group."
+          ]
+        },
+        {
+          "h": "Falsifiers",
+          "lines": [
+            "If investors reduce the story to a one-off profit uplift from Nintendo share sales only.",
+            "If the dividend and buyback changes were already largely priced in on Thursday."
+          ]
+        },
+        {
+          "h": "Risks",
+          "lines": [
+            "March 13 is major SQ, so index-driven flow can overwhelm stock-specific logic.",
+            "If the market de-risks further, even stronger shareholder returns may not protect the name intraday."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "TDnet",
+          "publisher": "適時開示",
+          "title": "京都ＦＧ(5844) 自己株式の取得枠拡大および取得期間延長に関するお知らせ",
+          "time_jst": "2026-03-11T15:30:00+09:00",
+          "url": "https://minkabu.jp/news/4463637"
+        },
+        {
+          "type": "TDnet",
+          "publisher": "適時開示",
+          "title": "京都ＦＧ(5844) 期末配当予想の修正に関するお知らせ",
+          "time_jst": "2026-03-11T15:30:00+09:00",
+          "url": "https://minkabu.jp/news/4463636"
+        },
+        {
+          "type": "News",
+          "publisher": "フィスコ",
+          "title": "京都ＦＧ---大幅続伸、大幅な増配や自社株買いの上限引き上げを好感",
+          "time_jst": "2026-03-12T12:48:00+09:00",
+          "url": "https://minkabu.jp/news/4464303"
+        }
+      ]
+    },
+    "no_trade_conditions": [
+      "If March 13 major-SQ index flow overwhelms stock-specific catalysts",
+      "If CME Nikkei futures reverse sharply from 53,670, or break lower enough to invalidate the setup before the Japan open",
+      "If Brent or WTI reverse lower abruptly and the relative-energy bid disappears",
+      "If USD/JPY snaps back on intervention fears and the weaker-yen premise breaks"
+    ],
+    "disclaimer": "This is a pre-market information digest, not investment advice. Please make your own final decisions."
+  }
+}

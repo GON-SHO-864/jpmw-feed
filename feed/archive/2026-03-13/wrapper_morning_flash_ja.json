@@ -1,0 +1,595 @@
+{
+  "schema_version": 1,
+  "market": "JP_STOCKS",
+  "date_jst": "2026-03-13",
+  "edition": "morning_flash",
+  "published_at_jst": "2026-03-12T23:51:08+09:00",
+  "content": {
+    "edition": "morning_flash",
+    "coverage_window_hours": 36,
+    "latest_source_time_jst": "2026-03-12T23:23:00+09:00",
+    "audit": {
+      "query_set_completed": true,
+      "coverage_risk": "mid",
+      "publish_ok": true,
+      "publish_blockers": [],
+      "query_log": [
+        {
+          "category": "macro",
+          "query": "2026年3月12日 米株先物 10年国債利回り ドル円 原油 銅 Reuters",
+          "top_source_url": "https://www.reuters.com/world/asia-pacific/us-dollar-hovers-near-2026-highs-oils-rise-spurs-hawkish-central-bank-bets-2026-03-12/"
+        },
+        {
+          "category": "macro",
+          "query": "site:reuters.com March 12 2026 S&P 500 futures down Reuters oil 2026-03-12",
+          "top_source_url": "https://www.reuters.com/world/china/global-markets-view-europe-newsletter-2026-03-12/"
+        },
+        {
+          "category": "futures",
+          "query": "2026年3月13日 日経225先物 TOPIX先物 CME SGX 大阪取引所 Reuters",
+          "top_source_url": "https://nikkei225jp.com/cme/"
+        },
+        {
+          "category": "tdnet",
+          "query": "site:minkabu.jp 5572 Ridge-i 2026 3 12 業績予想 修正 適時開示",
+          "top_source_url": "https://minkabu.jp/news/4464754"
+        },
+        {
+          "category": "major_news",
+          "query": "2026年3月12日 ホンダ EV 開発見直し 特損 ロイター",
+          "top_source_url": "https://jp.reuters.com/markets/world-indices/VVK5QFFGSZPXDMKBTQCJWKC6DU-2026-03-12/"
+        },
+        {
+          "category": "major_news",
+          "query": "site:reuters.com March 12 2026 Dow futures Reuters oil tanker attacks",
+          "top_source_url": "https://www.reuters.com/business/wall-street-futures-drop-middle-east-tensions-lift-oil-above-100-2026-03-12/"
+        }
+      ]
+    },
+    "market": {
+      "snapshot": [
+        "CME日経225先物（円建て）は23:23 JST時点で53,670（前日比-905）。指数寄りは重め。",
+        "Brentは100ドル台を回復し、WTIは94ドル近辺。資源には追い風、輸送・景気敏感には逆風。",
+        "ドル円は12日15時時点で159円近辺、一時159.24円。円安支援と介入警戒が同居。",
+        "S&P500/Nasdaq先物は各-1%。米株現物は執筆時点で引け未確認のため、今回はflash運用。"
+      ],
+      "drivers": [
+        {
+          "driver": "原油高・円安・先物安の同時進行",
+          "why_today": "CME日経225先物は53,670、Brentは100ドル台、ドル円は159円圏。指数は重い一方、上流エネルギーが相対優位になりやすい。",
+          "confidence": "high"
+        },
+        {
+          "driver": "引け後TDnetの質が高い日",
+          "why_today": "京都FGの還元強化、Ridge-iの大型AI受注と上方修正、タイミーの上方修正など、指数に逆らいやすい個別材料が揃った。",
+          "confidence": "high"
+        }
+      ]
+    },
+    "headline_inventory": [
+      {
+        "category": "futures",
+        "headline": "CME日経225先物は23:23 JST時点で53,670（前日比-905）",
+        "time_jst": "2026-03-12T23:23:00+09:00",
+        "publisher": "nikkei225jp.com",
+        "url": "https://nikkei225jp.com/cme/",
+        "related_tickers": [
+          "5844",
+          "1605",
+          "6098"
+        ]
+      },
+      {
+        "category": "macro",
+        "headline": "ドル円は15時時点で159円近辺、一時159.24円まで円安進行",
+        "time_jst": "2026-03-12T15:23:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/UFN6BGPGGBK4XDMXVMPM4OULXQ-2026-03-12/",
+        "related_tickers": [
+          "1605",
+          "6098",
+          "7267"
+        ]
+      },
+      {
+        "category": "macro",
+        "headline": "Brentは100ドル台回復、S&P500/Nasdaq先物は各-1%",
+        "time_jst": "2026-03-12T14:33:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-view-europe-newsletter-2026-03-12/",
+        "related_tickers": [
+          "1605",
+          "1662",
+          "6098"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "京都FGが自社株買い枠拡大と取得期間延長を開示",
+        "time_jst": "2026-03-11T15:30:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4463637",
+        "related_tickers": [
+          "5844"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Ridge-iがSBIグループから4.1億円のAI案件を受注",
+        "time_jst": "2026-03-12T17:00:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4464753",
+        "related_tickers": [
+          "5572",
+          "8473"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "タイミーが26年4月期見通しを上方修正",
+        "time_jst": "2026-03-12T15:30:00+09:00",
+        "publisher": "株探",
+        "url": "https://minkabu.jp/news/4464452",
+        "related_tickers": [
+          "215A"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "ホンダがEV3車種中止で通期赤字見通しに転換",
+        "time_jst": "2026-03-12T16:02:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/world-indices/VVK5QFFGSZPXDMKBTQCJWKC6DU-2026-03-12/",
+        "related_tickers": [
+          "7267",
+          "6758"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "米株は中東緊張と民間信用不安で1％安",
+        "time_jst": "2026-03-12T17:00:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/wall-street-futures-drop-middle-east-tensions-lift-oil-above-100-2026-03-12/",
+        "related_tickers": [
+          "1605",
+          "6098",
+          "7267"
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "rank": 1,
+        "ticker": "5844",
+        "name": "京都フィナンシャルグループ",
+        "tags": [
+          "上方修正",
+          "増配",
+          "自社株買い"
+        ],
+        "why_today": "任天堂株売却益で今期見通しを大幅上方修正し、期末配当増額と自社株買い枠拡大を同時開示。個別材料の質が高い。",
+        "watchpoints": [
+          "高寄り後も4,300円台を維持できるか",
+          "初動後も出来高が細らないか",
+          "地銀全体より同社が相対強いか"
+        ],
+        "falsifiers": [
+          "売却益の一過性だけが意識される",
+          "前日高騰で還元強化が織り込まれる"
+        ],
+        "red_team": "本業より株式売却益が主因で、初動後に評価が剥がれるリスクがある。",
+        "confidence": "high",
+        "score_total": 89,
+        "score_breakdown": {
+          "catalyst": 37,
+          "evidence": 18,
+          "liquidity": 19,
+          "setup": 15
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "京都ＦＧ(5844) 自己株式の取得枠拡大および取得期間延長に関するお知らせ",
+            "time_jst": "2026-03-11T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4463637"
+          },
+          {
+            "type": "News",
+            "publisher": "フィスコ",
+            "title": "京都ＦＧ---大幅続伸、大幅な増配や自社株買いの上限引き上げを好感",
+            "time_jst": "2026-03-12T12:48:00+09:00",
+            "url": "https://minkabu.jp/news/4464303"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "ticker": "5572",
+        "name": "Ridge-i",
+        "tags": [
+          "上方修正",
+          "AI受注",
+          "SBI連携"
+        ],
+        "why_today": "今期見通し上方修正とSBIグループ向け4.1億円のAI案件受注を同時開示。テーマと数字が両立。",
+        "watchpoints": [
+          "4.1億円受注を単発でなく拡張案件と読めるか",
+          "ギャップアップ後も売り物を吸収できるか",
+          "SBI連携の横展開期待が出るか"
+        ],
+        "falsifiers": [
+          "小型グロースの利食いが先行する",
+          "受注の継続性に疑義が出る"
+        ],
+        "red_team": "材料は強いが東証グロースらしく値幅先行になりやすい。",
+        "confidence": "high",
+        "score_total": 81,
+        "score_breakdown": {
+          "catalyst": 35,
+          "evidence": 18,
+          "liquidity": 9,
+          "setup": 19
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "リッジアイ(5572) 資本業務提携先であるSBIグループからのAI関連プロジェクト大型受注のお知らせ",
+            "time_jst": "2026-03-12T17:00:00+09:00",
+            "url": "https://minkabu.jp/news/4464753"
+          },
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "リッジアイ(5572) 2026年７月期連結業績予想の修正に関するお知らせ",
+            "time_jst": "2026-03-12T17:00:00+09:00",
+            "url": "https://minkabu.jp/news/4464754"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "ticker": "215A",
+        "name": "タイミー",
+        "tags": [
+          "上方修正",
+          "好進捗",
+          "グロース"
+        ],
+        "why_today": "第1四半期進捗を踏まえ26年4月期レンジ見通しを上方修正。数字の裏付けが明確なグロース材料。",
+        "watchpoints": [
+          "1Qの利益率改善が寄り後も評価されるか",
+          "上方修正レンジ上限を市場が意識するか",
+          "グロース全体安に逆らえるか"
+        ],
+        "falsifiers": [
+          "決算通過で短期資金が離れる",
+          "レンジ開示で上限頼みとみられる"
+        ],
+        "red_team": "好決算でもグロース地合いが悪い日は初動が続かない。",
+        "confidence": "high",
+        "score_total": 78,
+        "score_breakdown": {
+          "catalyst": 32,
+          "evidence": 17,
+          "liquidity": 12,
+          "setup": 17
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "株探",
+            "title": "タイミー、今期経常を37億～40億円に上方修正",
+            "time_jst": "2026-03-12T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4464452"
+          },
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "タイミー(215A) 2026年4月期 第1四半期決算説明資料",
+            "time_jst": "2026-03-12T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4464506"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "ticker": "1605",
+        "name": "ＩＮＰＥＸ",
+        "tags": [
+          "原油高",
+          "円安",
+          "マクロヘッジ"
+        ],
+        "why_today": "Brentは100ドル台、ドル円は159円圏。指数逆風時の上流エネルギー相対優位を確認したい。",
+        "watchpoints": [
+          "原油高と株価の連動が寄り後も続くか",
+          "指数売りを吸収して相対高を維持できるか",
+          "円安の追い風が剥がれないか"
+        ],
+        "falsifiers": [
+          "備蓄放出観測で原油が急反落する",
+          "指数急落で資源株も一緒に売られる"
+        ],
+        "red_team": "商品ヘッドライン一発で前提が反転する典型セクター。",
+        "confidence": "mid",
+        "score_total": 76,
+        "score_breakdown": {
+          "catalyst": 30,
+          "evidence": 14,
+          "liquidity": 20,
+          "setup": 12
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "Dollar nears 2026 highs as volatile oil fans inflation spike fears",
+            "time_jst": "2026-03-12T11:21:00+09:00",
+            "url": "https://www.reuters.com/world/asia-pacific/us-dollar-hovers-near-2026-highs-oils-rise-spurs-hawkish-central-bank-bets-2026-03-12/"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "今日の株式見通し＝軟調、原油高に反応",
+            "time_jst": "2026-03-12T07:51:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/56ZLVIE3DFNIPG7IZT3GEI7IDM-2026-03-11/"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "ticker": "6098",
+        "name": "リクルートホールディングス",
+        "tags": [
+          "自己株消却",
+          "大型株",
+          "需給改善"
+        ],
+        "why_today": "発行済み株式数の5.84％に当たる自社株消却を開示。大型株の需給改善材料として扱いやすい。",
+        "watchpoints": [
+          "指数安でも相対高を保てるか",
+          "消却規模の大きさが再評価されるか",
+          "成長株売りを吸収できるか"
+        ],
+        "falsifiers": [
+          "NASDAQ安が人材・ITサービス株に波及する",
+          "消却材料が既に織り込まれる"
+        ],
+        "red_team": "大型株だけに材料の即効性は限定され、指数に引かれやすい。",
+        "confidence": "mid",
+        "score_total": 74,
+        "score_breakdown": {
+          "catalyst": 27,
+          "evidence": 17,
+          "liquidity": 20,
+          "setup": 10
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "リクルート(6098) 自己株式の消却について",
+            "time_jst": "2026-03-11T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4463640"
+          },
+          {
+            "type": "News",
+            "publisher": "株探",
+            "title": "本日の〖自社株買い〗銘柄 (11日大引け後 発表分)",
+            "time_jst": "2026-03-11T19:20:00+09:00",
+            "url": "https://minkabu.jp/news/4463893"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "ticker": "1662",
+        "name": "石油資源開発",
+        "tags": [
+          "原油高",
+          "ガス",
+          "資源株"
+        ],
+        "why_today": "WTIは94ドル近辺、Brentは100ドル台。INPEXに続く二次受益の資源株連鎖を監視。",
+        "watchpoints": [
+          "INPEXから資金が波及するか",
+          "寄り後の出来高が膨らむか",
+          "原油だけでなくガス関連期待も乗るか"
+        ],
+        "falsifiers": [
+          "一次受益のINPEXへ資金が集中する",
+          "原油が失速し連想買いが止まる"
+        ],
+        "red_team": "一次受益ではなく連想色が強く、買いの持続性が読みづらい。",
+        "confidence": "mid",
+        "score_total": 72,
+        "score_breakdown": {
+          "catalyst": 29,
+          "evidence": 13,
+          "liquidity": 17,
+          "setup": 13
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "Dollar nears 2026 highs as volatile oil fans inflation spike fears",
+            "time_jst": "2026-03-12T11:21:00+09:00",
+            "url": "https://www.reuters.com/world/asia-pacific/us-dollar-hovers-near-2026-highs-oils-rise-spurs-hawkish-central-bank-bets-2026-03-12/"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "今日の株式見通し＝軟調、原油高に反応",
+            "time_jst": "2026-03-12T07:51:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/56ZLVIE3DFNIPG7IZT3GEI7IDM-2026-03-11/"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "ticker": "6118",
+        "name": "アイダエンジニアリング",
+        "tags": [
+          "自己株消却",
+          "資本政策",
+          "機械"
+        ],
+        "why_today": "発行済み株式数の6.72％に相当する430万株の自社株消却を開示。サイズの大きい資本政策。",
+        "watchpoints": [
+          "消却比率の大きさが寄りで素直に評価されるか",
+          "機械株安を吸収できるか",
+          "売り一巡後に買い直しが入るか"
+        ],
+        "falsifiers": [
+          "指数売りに埋もれて材料が効かない",
+          "既定路線と受け止められる"
+        ],
+        "red_team": "資本政策は明快だが、業績材料が伴わないと追随買いは続きにくい。",
+        "confidence": "mid",
+        "score_total": 68,
+        "score_breakdown": {
+          "catalyst": 27,
+          "evidence": 16,
+          "liquidity": 15,
+          "setup": 10
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "アイダ(6118) 自己株式の消却に関するお知らせ",
+            "time_jst": "2026-03-12T16:00:00+09:00",
+            "url": "https://minkabu.jp/news/4464671"
+          },
+          {
+            "type": "News",
+            "publisher": "株探",
+            "title": "本日の〖自社株買い〗銘柄 (12日大引け後 発表分)",
+            "time_jst": "2026-03-12T19:20:00+09:00",
+            "url": "https://minkabu.jp/news/4464826"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "ticker": "1433",
+        "name": "ベステラ",
+        "tags": [
+          "業績上振れ",
+          "AI協業",
+          "小型株"
+        ],
+        "why_today": "実績上振れとHEROZとのAI実装プロジェクトを同時開示。既存テーマにAIが上乗せされた。",
+        "watchpoints": [
+          "業績上振れとAIテーマのどちらが主導するか",
+          "ギャップアップを維持できるか",
+          "出来高が伴うか"
+        ],
+        "falsifiers": [
+          "AI協業が短期テーマにとどまる",
+          "小型株利食いで寄り天になる"
+        ],
+        "red_team": "材料が分散しており、市場が何を買うかの解釈がぶれやすい。",
+        "confidence": "mid",
+        "score_total": 65,
+        "score_breakdown": {
+          "catalyst": 29,
+          "evidence": 15,
+          "liquidity": 8,
+          "setup": 13
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "ベステラ(1433) HEROZ株式会社とのAI技術実装のための共同プロジェクトに関するお知らせ",
+            "time_jst": "2026-03-12T15:30:00+09:00",
+            "url": "https://minkabu.jp/stock/1433/news/4464541"
+          },
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "ベステラ(1433) 業績予想と実績値との差異に関するお知らせ",
+            "time_jst": "2026-03-12T18:00:00+09:00",
+            "url": "https://minkabu.jp/news/4464794"
+          }
+        ]
+      }
+    ],
+    "deep_dive": {
+      "ticker": "5844",
+      "title": "京都FG：一過性益でも、寄り前は還元強化の初速を確認",
+      "sections": [
+        {
+          "h": "仮説",
+          "lines": [
+            "本件の核は本業モメンタムより、還元強化を伴う資本政策の再評価にある。",
+            "地銀の中では流動性があり、指数が重い日でも個別材料が価格に出やすい。"
+          ]
+        },
+        {
+          "h": "なぜ今日か",
+          "lines": [
+            "3月11日引け後に、業績上方修正・期末配当増額・自社株買い枠拡大を同時開示した。",
+            "12日場中に新高値を付けており、13日寄りでは継続買いの有無が焦点になる。"
+          ]
+        },
+        {
+          "h": "見るポイント",
+          "lines": [
+            "高寄り後も4,300円台を維持し、ギャップを埋め切らないか。",
+            "初動30分後も出来高が続き、地銀全体ではなく同社が相対強を保てるか。"
+          ]
+        },
+        {
+          "h": "反証条件",
+          "lines": [
+            "利益増加が任天堂株売却益の一過性とだけ受け止められること。",
+            "増配と自社株買い拡大が12日の上昇でほぼ織り込み済みになること。"
+          ]
+        },
+        {
+          "h": "主なリスク",
+          "lines": [
+            "3月13日はメジャーSQで、指数フローが個別材料を上書きしやすい。",
+            "地合い悪化が進むと、還元強化があっても大型株全般の売りに巻き込まれる。"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "TDnet",
+          "publisher": "適時開示",
+          "title": "京都ＦＧ(5844) 自己株式の取得枠拡大および取得期間延長に関するお知らせ",
+          "time_jst": "2026-03-11T15:30:00+09:00",
+          "url": "https://minkabu.jp/news/4463637"
+        },
+        {
+          "type": "TDnet",
+          "publisher": "適時開示",
+          "title": "京都ＦＧ(5844) 期末配当予想の修正に関するお知らせ",
+          "time_jst": "2026-03-11T15:30:00+09:00",
+          "url": "https://minkabu.jp/news/4463636"
+        },
+        {
+          "type": "News",
+          "publisher": "フィスコ",
+          "title": "京都ＦＧ---大幅続伸、大幅な増配や自社株買いの上限引き上げを好感",
+          "time_jst": "2026-03-12T12:48:00+09:00",
+          "url": "https://minkabu.jp/news/4464303"
+        }
+      ]
+    },
+    "no_trade_conditions": [
+      "3月13日メジャーSQの指数フローが強く、個別材料が値動きに出ないとき",
+      "CME日経225先物が53,670から大きく切り返す、またはさらに下振れて前提が崩れたとき",
+      "Brent/WTIが急反落し、資源株優位の見立てが消えたとき",
+      "ドル円が介入警戒で急反転し、円安前提が崩れたとき"
+    ],
+    "disclaimer": "投資助言ではなく、寄り前の材料整理です。最終判断はご自身で行ってください。"
+  }
+}

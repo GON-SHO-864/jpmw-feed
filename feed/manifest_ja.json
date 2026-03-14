@@ -3,34 +3,22 @@
   "market": "JP_STOCKS",
   "timezone": "Asia/Tokyo",
   "latest": {
-    "date_jst": "2026-02-10",
-    "edition": "midday",
-    "published_at_jst": "2026-02-10T12:10:00+09:00",
-    "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_midday_ja.json"
+    "date_jst": "2026-03-13",
+    "edition": "morning_flash",
+    "published_at_jst": "2026-03-12T23:51:08+09:00",
+    "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_flash_ja.json"
   },
   "today": {
-    "date_jst": "2026-02-10",
+    "date_jst": "2026-03-13",
     "editions": [
       {
-        "date_jst": "2026-02-10",
+        "date_jst": "2026-03-13",
         "edition": "morning_flash",
-        "published_at_jst": "2026-02-10T07:30:00+09:00",
-        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_flash.json"
-      },
-      {
-        "date_jst": "2026-02-10",
-        "edition": "morning_final",
-        "published_at_jst": "2026-02-10T08:50:00+09:00",
-        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_confirm.json"
-      },
-      {
-        "date_jst": "2026-02-10",
-        "edition": "midday",
-        "published_at_jst": "2026-02-10T12:10:00+09:00",
-        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_midday_ja.json"
+        "published_at_jst": "2026-03-12T23:51:08+09:00",
+        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_flash_ja.json"
       }
     ]
   },
   "archive_days": 90,
-  "archive_index_url": "https://gon-sho-864.github.io/jpmw-feed/feed/archive_index.json"
+  "archive_index_url": "https://gon-sho-864.github.io/jpmw-feed/feed/archive_index_ja.json"
 }
