@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "market": "JP_STOCKS",
+  "date_jst": "2026-03-19",
+  "edition": "morning_final",
+  "published_at_jst": "2026-03-19T10:09:36+09:00",
+  "content": {
+    "edition": "morning_final",
+    "coverage_window_hours": 36,
+    "latest_source_time_jst": "2026-03-19T10:01:00+09:00",
+    "audit": {
+      "query_set_completed": true,
+      "coverage_risk": "mid",
+      "publish_ok": true,
+      "publish_blockers": [],
+      "query_log": [
+        {
+          "category": "macro",
+          "query": "2026-03-19 Reuters U.S. stocks close FOMC Treasury yields dollar yen oil copper Japan stocks",
+          "top_source_url": "https://jp.reuters.com/markets/japan/6CXQOZSWKBISXOPVY3VNXF3UKA-2026-03-18/"
+        },
+        {
+          "category": "futures",
+          "query": "2026-03-19 シカゴ日経225先物 TOPIX先物 53,465 大阪日中比 1,445円安",
+          "top_source_url": "https://s.minkabu.jp/news/4469248"
+        },
+        {
+          "category": "tdnet",
+          "query": "2026-03-18 TDnet 業績予想 修正 配当 自己株買い みんかぶ",
+          "top_source_url": "https://minkabu.jp/news/4468831"
+        },
+        {
+          "category": "major_news",
+          "query": "2026-03-19 Reuters Japan stocks outlook FOMC BOJ Micron oil",
+          "top_source_url": "https://jp.reuters.com/markets/japan/N5CRD5OQFRIJBND5XWJBT7DQ6U-2026-03-18/"
+        }
+      ]
+    },
+    "market": {
+      "snapshot": [
+        "U.S. equities sold off sharply after the FOMC. The Dow fell 768 points, the U.S. 10-year yield rose to 4.261%, and USD/JPY traded around 159.7.",
+        "WTI settled at $96.32, but after-hours trade moved back toward $100 following the Qatar energy-facility attack report. Oil risk is still alive.",
+        "Chicago Nikkei 225 futures were 53,465, down 1,445 versus Osaka day session. Reuters' morning range for the Nikkei was 53,200 to 54,300.",
+        "The Nikkei opened at 54,287.80 and by 10:00 JST was at 53,762.84, down 1,476.56, with 1,499 decliners across the market.",
+        "With the BOJ decision, Governor Ueda's press conference, and the Japan-U.S. summit ahead, the tape favors relative-strength names backed by buybacks, dividend hikes and revisions."
+      ],
+      "drivers": [
+        {
+          "driver": "Post-FOMC U.S. equity shock, plus renewed oil and FX pressure",
+          "why_today": "After the FOMC, U.S. equities dropped hard, the U.S. 10-year rose to 4.261%, USD/JPY pushed toward 159.90, and crude moved back toward $100. That is a clear headwind for the broad index.",
+          "confidence": "high"
+        },
+        {
+          "driver": "Buybacks, dividend hikes and guidance revisions that still work in a weak tape",
+          "why_today": "BayCurrent, TOA, Tokyo Kikai and Meiho Facility all posted clear after-close catalysts, and capital is concentrating in the few names still showing relative strength.",
+          "confidence": "high"
+        }
+      ]
+    },
+    "headline_inventory": [
+      {
+        "category": "macro",
+        "headline": "Reuters' New York market summary showed a 768-point Dow drop, USD/JPY around 159.7, the U.S. 10-year at 4.261%, and persistent oil risk",
+        "time_jst": "2026-03-19T06:29:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/6CXQOZSWKBISXOPVY3VNXF3UKA-2026-03-18/",
+        "related_tickers": [
+          "1605",
+          "6532",
+          "6809"
+        ]
+      },
+      {
+        "category": "futures",
+        "headline": "Chicago Nikkei 225 futures were 53,465, down 1,445 versus Osaka day session, while USD/JPY was 159.70-80",
+        "time_jst": "2026-03-19T09:16:00+09:00",
+        "publisher": "フィスコ",
+        "url": "https://s.minkabu.jp/news/4469248",
+        "related_tickers": [
+          "6532",
+          "6809",
+          "6335"
+        ]
+      },
+      {
+        "category": "macro",
+        "headline": "USD/JPY was seen in a 159.00-160.50 range, with both post-BOJ volatility risk and intervention concern in view",
+        "time_jst": "2026-03-19T08:04:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/VL6QOFIGLVNW7CLB2CNZWSB7N4-2026-03-18/",
+        "related_tickers": [
+          "1605",
+          "6809"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "The Nikkei opened down at 54,287.80 and quickly slipped into the 53,800 area",
+        "time_jst": "2026-03-19T09:14:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/AC5MIHNMDRLDPEPLIYOHWBYBPE-2026-03-19/",
+        "related_tickers": [
+          "6532",
+          "6809",
+          "1605"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "At 10:00 JST the Nikkei was 53,762.84, down 1,476.56, with 1,499 losers versus only 63 gainers",
+        "time_jst": "2026-03-19T10:01:00+09:00",
+        "publisher": "株探",
+        "url": "https://s.minkabu.jp/news/4469281",
+        "related_tickers": [
+          "6532",
+          "9104"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "BayCurrent disclosed a buyback capped at 4.3% of shares outstanding and the full cancellation of acquired shares",
+        "time_jst": "2026-03-18T15:30:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4468831",
+        "related_tickers": [
+          "6532"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "TOA raised both full-year guidance and its year-end dividend outlook",
+        "time_jst": "2026-03-18T15:30:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4468829",
+        "related_tickers": [
+          "6809"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Tokyo Kikai raised its FY March 2026 net-profit outlook on litigation-related income and related items",
+        "time_jst": "2026-03-18T15:30:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4468840",
+        "related_tickers": [
+          "6335"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "Meiho Facility raised its FY March 2026 year-end dividend forecast by 0.5 yen",
+        "time_jst": "2026-03-18T16:00:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4468885",
+        "related_tickers": [
+          "1717"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "Micron's third-quarter sales outlook beat expectations, but the stock still fell about 4% after hours, leaving mixed read-through for semis",
+        "time_jst": "2026-03-19T09:15:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/world-indices/5PB4WXUQJFJGJNYPZ5KLDC7ELY-2026-03-19/",
+        "related_tickers": [
+          "8035",
+          "6857"
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "rank": 1,
+        "ticker": "6532",
+        "name": "BayCurrent",
+        "tags": [
+          "Buyback",
+          "Cancellation",
+          "Relative strength"
+        ],
+        "why_today": "It disclosed a buyback capped at 4.3% plus full cancellation of acquired shares. Even in a washout tape, it is clearly standing out near the top of Prime gainers.",
+        "watchpoints": [
+          "Can it stay near the top of Prime gainers despite the market-wide selloff",
+          "Can it build around the 4,700 yen area with real turnover",
+          "Does buying remain even ahead of the BOJ and FX event risk"
+        ],
+        "falsifiers": [
+          "Broader risk-off pressure erases the relative-strength profile",
+          "The stock breaks back below the 4,600 yen area after the first buyback-driven burst"
+        ],
+        "red_team": "The repurchase does not start until mid-April, so today's move is partly expectation-led rather than immediate cash demand.",
+        "confidence": "high",
+        "score_total": 88,
+        "score_breakdown": {
+          "catalyst": 34,
+          "evidence": 18,
+          "liquidity": 20,
+          "setup": 16
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "ベイカレント(6532) 自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ",
+            "time_jst": "2026-03-18T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4468831"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "ホットストック：ベイカレントが逆行高、一時6％超上昇 自社株買いを好感",
+            "time_jst": "2026-03-19T09:18:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/NJDNIOV5QFPCPFWUUEZZVGUIFI-2026-03-19/"
+          },
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "ベイカレントが逆行高、６６０万株を上限とする自社株買いを実施へ",
+            "time_jst": "2026-03-19T09:27:00+09:00",
+            "url": "https://s.minkabu.jp/news/4469256"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "ticker": "6809",
+        "name": "TOA",
+        "tags": [
+          "Guidance raise",
+          "Dividend hike",
+          "Domestic demand"
+        ],
+        "why_today": "It raised full-year guidance and the year-end dividend after the close. The fact that it is still higher in a weak market gives the numbers more weight.",
+        "watchpoints": [
+          "Can it hold the 1,800 yen area",
+          "Does the market reward the higher net profit and dividend more than the flat operating-profit line",
+          "Can the weaker-yen angle keep attracting incremental buyers"
+        ],
+        "falsifiers": [
+          "Investors judge the revision to be too dependent on below-the-line items",
+          "The move fades quickly on thin follow-through volume"
+        ],
+        "red_team": "Tax credits and received-dividend gains contributed meaningfully, so the market may debate the quality of the upgrade.",
+        "confidence": "high",
+        "score_total": 82,
+        "score_breakdown": {
+          "catalyst": 33,
+          "evidence": 18,
+          "liquidity": 15,
+          "setup": 16
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "ＴＯＡ(6809) 業績予想の修正および期末配当予想の修正（増配）に関するお知らせ",
+            "time_jst": "2026-03-18T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4468829"
+          },
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "ＴＯＡが続伸、受取配当金の増加や税額控除適用で今期最終益・期末配当予想を引き上げ",
+            "time_jst": "2026-03-19T09:30:00+09:00",
+            "url": "https://s.minkabu.jp/news/4469259"
+          },
+          {
+            "type": "News",
+            "publisher": "フィスコ",
+            "title": "ＴＯＡ、浜ゴム◆今日のフィスコ注目銘柄◆",
+            "time_jst": "2026-03-19T09:13:00+09:00",
+            "url": "https://minkabu.jp/news/4469246"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "ticker": "6335",
+        "name": "Tokyo Kikai Seisakusho",
+        "tags": [
+          "Guidance raise",
+          "Special profit",
+          "High volatility"
+        ],
+        "why_today": "Litigation-related income drove a sharp raise to the net-profit outlook and the stock briefly hit limit-up territory. Even if it is mostly a price-range trade, it is hard to ignore.",
+        "watchpoints": [
+          "Can it absorb selling even after approaching limit-up levels",
+          "Does the market focus on the net-profit impact rather than the one-off nature of the gain",
+          "Can it move into a high-level consolidation despite the thin order book"
+        ],
+        "falsifiers": [
+          "The one-off profit nature becomes the dominant narrative",
+          "The stock breaks below the early spike high after the sharp opening move"
+        ],
+        "red_team": "Because the catalyst is centered on special profit, repeatability is weak and the move can turn into pure volatility.",
+        "confidence": "mid",
+        "score_total": 76,
+        "score_breakdown": {
+          "catalyst": 32,
+          "evidence": 16,
+          "liquidity": 9,
+          "setup": 19
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "東京機(6335) 業績予想の修正に関するお知らせ",
+            "time_jst": "2026-03-18T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4468840"
+          },
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "東京機が一時Ｓ高、訴訟関連収入の計上で２６年３月期最終利益予想を上方修正",
+            "time_jst": "2026-03-19T09:41:00+09:00",
+            "url": "https://minkabu.jp/news/4469264"
+          },
+          {
+            "type": "News",
+            "publisher": "フィスコ",
+            "title": "東京機械---一時ストップ高、勝訴確定で純利益予想を上方修正",
+            "time_jst": "2026-03-19T09:51:00+09:00",
+            "url": "https://s.minkabu.jp/news/4469273"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "ticker": "1605",
+        "name": "INPEX",
+        "tags": [
+          "Oil spike",
+          "Weaker yen",
+          "Macro hedge"
+        ],
+        "why_today": "Crude moved back toward $100 and USD/JPY stayed in the upper 159s. In a falling market, energy remains one of the cleaner relative hedges to monitor.",
+        "watchpoints": [
+          "Does the market continue to price the move back toward $100 oil during Tokyo hours",
+          "Can the stock hold relative strength against a sharply weaker Nikkei",
+          "Does USD/JPY stay in the upper 159 range"
+        ],
+        "falsifiers": [
+          "Oil reverses sharply lower",
+          "A stronger yen removes the external macro tailwind"
+        ],
+        "red_team": "Even crude beneficiaries can be sold in an indiscriminate market-wide de-risking phase.",
+        "confidence": "mid",
+        "score_total": 74,
+        "score_breakdown": {
+          "catalyst": 26,
+          "evidence": 16,
+          "liquidity": 20,
+          "setup": 12
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "ＩＮＰＥＸが逆行高で連日の最高値更新、時間外でＷＴＩ価格は一時１００ドル乗せ◇",
+            "time_jst": "2026-03-19T09:50:00+09:00",
+            "url": "https://minkabu.jp/news/4469272"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "ＮＹ市場サマリー（18日）ダウ急反落768ドル安、ドル・利回り上昇",
+            "time_jst": "2026-03-19T06:29:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/6CXQOZSWKBISXOPVY3VNXF3UKA-2026-03-18/"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "ticker": "1717",
+        "name": "Meiho Facility Works",
+        "tags": [
+          "Dividend hike",
+          "Yield",
+          "Small cap"
+        ],
+        "why_today": "It raised the year-end dividend by 0.5 yen. The catalyst is modest, but it is useful for checking whether dividend names can still stay resilient in a weak market.",
+        "watchpoints": [
+          "Can it hold the 1,060 yen area",
+          "Do yield-oriented buyers support pullbacks",
+          "Does money keep rotating into smaller dividend names"
+        ],
+        "falsifiers": [
+          "The market judges the dividend increase to be too small",
+          "Worsening market tone pulls capital out of smaller stocks"
+        ],
+        "red_team": "The catalyst is straightforward but small, so the depth of follow-through may be limited.",
+        "confidence": "mid",
+        "score_total": 68,
+        "score_breakdown": {
+          "catalyst": 24,
+          "evidence": 16,
+          "liquidity": 10,
+          "setup": 18
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "明豊ファシリ(1717) 配当予想の修正（増配）に関するお知らせ",
+            "time_jst": "2026-03-18T16:00:00+09:00",
+            "url": "https://minkabu.jp/news/4468885"
+          },
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "明豊ファシリが３日続伸、２６年３月期配当予想を５０銭増額へ",
+            "time_jst": "2026-03-19T09:23:00+09:00",
+            "url": "https://s.minkabu.jp/news/4469253"
+          }
+        ]
+      }
+    ],
+    "deep_dive": {
+      "ticker": "6532",
+      "title": "BayCurrent: In a down-1,400-point tape, test whether shareholder-return strength can still lead",
+      "sections": [
+        {
+          "h": "Thesis",
+          "lines": [
+            "When more than 90% of Prime names are falling, supply-improvement catalysts can matter more than ordinary earnings narratives.",
+            "A buyback capped at 4.3% plus full cancellation of acquired shares gives BayCurrent a cleaner relative-strength case than most names in today's tape."
+          ]
+        },
+        {
+          "h": "Why today",
+          "lines": [
+            "After the March 18 close, the company disclosed the buyback and the August cancellation plan, and Reuters confirmed it was still among the top Prime gainers on March 19 morning.",
+            "Even at 10:00 JST, it remained one of the few positive contributors in an otherwise broad selloff, which makes the catalyst easier to validate intraday."
+          ]
+        },
+        {
+          "h": "What to watch",
+          "lines": [
+            "Can it hold around the 4,700 yen area instead of fading after the opening burst.",
+            "Even if the broader market stays weak ahead of BOJ and FX events, does dip-buying continue with real volume."
+          ]
+        },
+        {
+          "h": "Falsifiers",
+          "lines": [
+            "Broader risk-off selling intensifies enough to wipe out the relative-strength profile.",
+            "A drop back below the 4,600 yen area makes the post-disclosure fade unmistakable."
+          ]
+        },
+        {
+          "h": "Risks",
+          "lines": [
+            "The repurchase starts on April 15, so today's move is partly expectation-led and vulnerable to a fade.",
+            "If the post-FOMC U.S. growth-stock weakness spills over, consultants and IT-services names can still get dragged lower."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "TDnet",
+          "publisher": "適時開示",
+          "title": "ベイカレント(6532) 自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ",
+          "time_jst": "2026-03-18T15:30:00+09:00",
+          "url": "https://minkabu.jp/news/4468831"
+        },
+        {
+          "type": "News",
+          "publisher": "Reuters",
+          "title": "ホットストック：ベイカレントが逆行高、一時6％超上昇 自社株買いを好感",
+          "time_jst": "2026-03-19T09:18:00+09:00",
+          "url": "https://jp.reuters.com/markets/japan/NJDNIOV5QFPCPFWUUEZZVGUIFI-2026-03-19/"
+        },
+        {
+          "type": "News",
+          "publisher": "株探",
+          "title": "10時の日経平均は1476円安の5万3762円、アドテストが302.17円押し下げ",
+          "time_jst": "2026-03-19T10:01:00+09:00",
+          "url": "https://s.minkabu.jp/news/4469281"
+        }
+      ]
+    },
+    "no_trade_conditions": [
+      "If the BOJ decision or Governor Ueda's press conference causes a sharp USD/JPY reversal and completely changes the market's leadership",
+      "If the Nikkei selloff deepens further and even buyback or dividend-hike names lose their relative strength",
+      "If BayCurrent or TOA quickly break their opening highs and short-term money clearly exits",
+      "If crude reverses sharply lower and the macro-hedge premise for INPEX breaks"
+    ],
+    "disclaimer": "This is a morning market digest, not investment advice. Please make your own final decisions."
+  }
+}

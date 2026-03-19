@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "market": "JP_STOCKS",
+  "date_jst": "2026-03-19",
+  "edition": "morning_final",
+  "published_at_jst": "2026-03-19T10:09:36+09:00",
+  "content": {
+    "edition": "morning_final",
+    "coverage_window_hours": 36,
+    "latest_source_time_jst": "2026-03-19T10:01:00+09:00",
+    "audit": {
+      "query_set_completed": true,
+      "coverage_risk": "mid",
+      "publish_ok": true,
+      "publish_blockers": [],
+      "query_log": [
+        {
+          "category": "macro",
+          "query": "2026-03-19 Reuters U.S. stocks close FOMC Treasury yields dollar yen oil copper Japan stocks",
+          "top_source_url": "https://jp.reuters.com/markets/japan/6CXQOZSWKBISXOPVY3VNXF3UKA-2026-03-18/"
+        },
+        {
+          "category": "futures",
+          "query": "2026-03-19 シカゴ日経225先物 TOPIX先物 53,465 大阪日中比 1,445円安",
+          "top_source_url": "https://s.minkabu.jp/news/4469248"
+        },
+        {
+          "category": "tdnet",
+          "query": "2026-03-18 TDnet 業績予想 修正 配当 自己株買い みんかぶ",
+          "top_source_url": "https://minkabu.jp/news/4468831"
+        },
+        {
+          "category": "major_news",
+          "query": "2026-03-19 Reuters Japan stocks outlook FOMC BOJ Micron oil",
+          "top_source_url": "https://jp.reuters.com/markets/japan/N5CRD5OQFRIJBND5XWJBT7DQ6U-2026-03-18/"
+        }
+      ]
+    },
+    "market": {
+      "snapshot": [
+        "米株はFOMC後に急反落。ダウは768ドル安、米10年債利回りは4.261%、ドル円は159.7円近辺。",
+        "WTI清算値は96.32ドルだが、カタール関連施設攻撃報道後の時間外で再び100ドルに接近。原油リスクは継続。",
+        "シカゴ日経225先物は大阪日中比1,445円安の53,465円。Reuters想定レンジは53,200─54,300円。",
+        "日経平均は54,287.80円で寄り付き、10時時点では53,762.84円（-1,476.56）。値下がりは1,499銘柄。",
+        "日銀会合・植田会見と日米首脳会談を控え、指数より還元・増配・上方修正の相対強に絞る局面。"
+      ],
+      "drivers": [
+        {
+          "driver": "FOMC後の米株急落と原油・円安の再圧力",
+          "why_today": "FOMC後に米株が急落し、米10年は4.261%、ドル円は159.90手前、原油は再び100ドル接近。指数全体には逆風が強い。",
+          "confidence": "high"
+        },
+        {
+          "driver": "弱地合いで効く自社株買い・増配・上方修正",
+          "why_today": "ベイカレント、ＴＯＡ、東京機、明豊ファシリなど、引け後開示が明確で、全面安でも相対強を示す個別に資金が寄っている。",
+          "confidence": "high"
+        }
+      ]
+    },
+    "headline_inventory": [
+      {
+        "category": "macro",
+        "headline": "ＮＹ市場サマリーではダウ768ドル安、ドル円159.7円、米10年4.261%、原油リスク継続が確認された",
+        "time_jst": "2026-03-19T06:29:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/6CXQOZSWKBISXOPVY3VNXF3UKA-2026-03-18/",
+        "related_tickers": [
+          "1605",
+          "6532",
+          "6809"
+        ]
+      },
+      {
+        "category": "futures",
+        "headline": "シカゴ日経225先物は大阪日中比1,445円安の53,465円、ドル円は159.70-80円",
+        "time_jst": "2026-03-19T09:16:00+09:00",
+        "publisher": "フィスコ",
+        "url": "https://s.minkabu.jp/news/4469248",
+        "related_tickers": [
+          "6532",
+          "6809",
+          "6335"
+        ]
+      },
+      {
+        "category": "macro",
+        "headline": "ドル円の想定レンジは159.00─160.50円で、日銀後の相場急変と介入警戒が併存",
+        "time_jst": "2026-03-19T08:04:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/VL6QOFIGLVNW7CLB2CNZWSB7N4-2026-03-18/",
+        "related_tickers": [
+          "1605",
+          "6809"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "日経平均は54,287.80円で反落スタートし、足元は53,800円台まで下押し",
+        "time_jst": "2026-03-19T09:14:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/AC5MIHNMDRLDPEPLIYOHWBYBPE-2026-03-19/",
+        "related_tickers": [
+          "6532",
+          "6809",
+          "1605"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "10時時点の日経平均は53,762.84円（-1,476.56）、値下がり1,499・値上がり63で全面安",
+        "time_jst": "2026-03-19T10:01:00+09:00",
+        "publisher": "株探",
+        "url": "https://s.minkabu.jp/news/4469281",
+        "related_tickers": [
+          "6532",
+          "9104"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "ベイカレントが4.3%上限の自社株買いと取得株の全数消却を開示",
+        "time_jst": "2026-03-18T15:30:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4468831",
+        "related_tickers": [
+          "6532"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "ＴＯＡが今期業績予想と期末配当予想を引き上げ",
+        "time_jst": "2026-03-18T15:30:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4468829",
+        "related_tickers": [
+          "6809"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "東京機が訴訟関連収入などを背景に26年3月期最終利益予想を上方修正",
+        "time_jst": "2026-03-18T15:30:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4468840",
+        "related_tickers": [
+          "6335"
+        ]
+      },
+      {
+        "category": "tdnet",
+        "headline": "明豊ファシリが26年3月期の期末配当予想を50銭増額修正",
+        "time_jst": "2026-03-18T16:00:00+09:00",
+        "publisher": "適時開示",
+        "url": "https://minkabu.jp/news/4468885",
+        "related_tickers": [
+          "1717"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "マイクロンは3Q売上見通しが市場予想超えでも時間外で約4%安、半導体には追い風と逆風が混在",
+        "time_jst": "2026-03-19T09:15:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/world-indices/5PB4WXUQJFJGJNYPZ5KLDC7ELY-2026-03-19/",
+        "related_tickers": [
+          "8035",
+          "6857"
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "rank": 1,
+        "ticker": "6532",
+        "name": "ベイカレント",
+        "tags": [
+          "自社株買い",
+          "消却",
+          "逆行高"
+        ],
+        "why_today": "4.3%上限の自社株買いと全数消却を開示。全面安でもプライム値上がり率首位圏の相対強が明確。",
+        "watchpoints": [
+          "全面安のなかでプライム上昇率上位を維持できるか",
+          "4,700円台近辺を出来高伴いで固められるか",
+          "日銀・為替イベント前でも買いが残るか"
+        ],
+        "falsifiers": [
+          "指数のリスクオフが強まり相対強が消える",
+          "買い戻し一巡後に4,600円台を割り込む"
+        ],
+        "red_team": "取得開始は4月中旬で、きょうの実需ではない点は過熱の反動要因。",
+        "confidence": "high",
+        "score_total": 88,
+        "score_breakdown": {
+          "catalyst": 34,
+          "evidence": 18,
+          "liquidity": 20,
+          "setup": 16
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "ベイカレント(6532) 自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ",
+            "time_jst": "2026-03-18T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4468831"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "ホットストック：ベイカレントが逆行高、一時6％超上昇 自社株買いを好感",
+            "time_jst": "2026-03-19T09:18:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/NJDNIOV5QFPCPFWUUEZZVGUIFI-2026-03-19/"
+          },
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "ベイカレントが逆行高、６６０万株を上限とする自社株買いを実施へ",
+            "time_jst": "2026-03-19T09:27:00+09:00",
+            "url": "https://s.minkabu.jp/news/4469256"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "ticker": "6809",
+        "name": "ＴＯＡ",
+        "tags": [
+          "上方修正",
+          "増配",
+          "内需"
+        ],
+        "why_today": "通期見通しと期末配当を引き上げ。全体安のなかでも続伸しており、数字材料の効きが見えやすい。",
+        "watchpoints": [
+          "1,800円台を維持できるか",
+          "最終益・配当増額が営業利益据え置きを上回って評価されるか",
+          "円安メリット株として再評価が続くか"
+        ],
+        "falsifiers": [
+          "最終益主導で質が弱いと受け止められる",
+          "出来高が伴わず寄り天化する"
+        ],
+        "red_team": "税額控除や受取配当の寄与が大きく、利益の質を問われやすい。",
+        "confidence": "high",
+        "score_total": 82,
+        "score_breakdown": {
+          "catalyst": 33,
+          "evidence": 18,
+          "liquidity": 15,
+          "setup": 16
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "ＴＯＡ(6809) 業績予想の修正および期末配当予想の修正（増配）に関するお知らせ",
+            "time_jst": "2026-03-18T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4468829"
+          },
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "ＴＯＡが続伸、受取配当金の増加や税額控除適用で今期最終益・期末配当予想を引き上げ",
+            "time_jst": "2026-03-19T09:30:00+09:00",
+            "url": "https://s.minkabu.jp/news/4469259"
+          },
+          {
+            "type": "News",
+            "publisher": "フィスコ",
+            "title": "ＴＯＡ、浜ゴム◆今日のフィスコ注目銘柄◆",
+            "time_jst": "2026-03-19T09:13:00+09:00",
+            "url": "https://minkabu.jp/news/4469246"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "ticker": "6335",
+        "name": "東京機械製作所",
+        "tags": [
+          "上方修正",
+          "特別利益",
+          "高ボラ"
+        ],
+        "why_today": "訴訟関連収入の計上で最終利益予想を大幅上方修正し、一時ストップ高。値幅主導でも監視優先度は高い。",
+        "watchpoints": [
+          "ストップ高接近後も売りを吸収できるか",
+          "一過性利益より最終益インパクトが優先されるか",
+          "板が薄いなかで高値保ち合いに移れるか"
+        ],
+        "falsifiers": [
+          "一過性利益への警戒が優勢になる",
+          "急騰後に寄り付き高値を割り込む"
+        ],
+        "red_team": "特別利益中心で再現性が弱く、値幅だけで終わるリスクが高い。",
+        "confidence": "mid",
+        "score_total": 76,
+        "score_breakdown": {
+          "catalyst": 32,
+          "evidence": 16,
+          "liquidity": 9,
+          "setup": 19
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "東京機(6335) 業績予想の修正に関するお知らせ",
+            "time_jst": "2026-03-18T15:30:00+09:00",
+            "url": "https://minkabu.jp/news/4468840"
+          },
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "東京機が一時Ｓ高、訴訟関連収入の計上で２６年３月期最終利益予想を上方修正",
+            "time_jst": "2026-03-19T09:41:00+09:00",
+            "url": "https://minkabu.jp/news/4469264"
+          },
+          {
+            "type": "News",
+            "publisher": "フィスコ",
+            "title": "東京機械---一時ストップ高、勝訴確定で純利益予想を上方修正",
+            "time_jst": "2026-03-19T09:51:00+09:00",
+            "url": "https://s.minkabu.jp/news/4469273"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "ticker": "1605",
+        "name": "ＩＮＰＥＸ",
+        "tags": [
+          "原油高",
+          "円安",
+          "マクロヘッジ"
+        ],
+        "why_today": "原油が再び100ドル近辺へ持ち直し、ドル円も159円台後半。指数急落日の相対ヘッジ候補として注目。",
+        "watchpoints": [
+          "原油100ドル接近が東京時間でも意識されるか",
+          "日経急落に対して相対高を保てるか",
+          "ドル円159円台後半が維持されるか"
+        ],
+        "falsifiers": [
+          "原油が急反落する",
+          "円高反転で外部追い風が剥がれる"
+        ],
+        "red_team": "全面安が進むと、商品高メリット株でも連れ安は避けにくい。",
+        "confidence": "mid",
+        "score_total": 74,
+        "score_breakdown": {
+          "catalyst": 26,
+          "evidence": 16,
+          "liquidity": 20,
+          "setup": 12
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "ＩＮＰＥＸが逆行高で連日の最高値更新、時間外でＷＴＩ価格は一時１００ドル乗せ◇",
+            "time_jst": "2026-03-19T09:50:00+09:00",
+            "url": "https://minkabu.jp/news/4469272"
+          },
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "ＮＹ市場サマリー（18日）ダウ急反落768ドル安、ドル・利回り上昇",
+            "time_jst": "2026-03-19T06:29:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/6CXQOZSWKBISXOPVY3VNXF3UKA-2026-03-18/"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "ticker": "1717",
+        "name": "明豊ファシリティワークス",
+        "tags": [
+          "増配",
+          "利回り",
+          "小型"
+        ],
+        "why_today": "期末配当を50銭増額修正。派手さはないが、全面安のなかで配当株の底堅さを測る材料として有効。",
+        "watchpoints": [
+          "1,060円台を維持できるか",
+          "利回り妙味で押し目買いが入るか",
+          "小型配当株物色が続くか"
+        ],
+        "falsifiers": [
+          "増配幅が小さいと判断される",
+          "地合い悪化で小型株から資金が抜ける"
+        ],
+        "red_team": "材料は素直だが規模が小さく、追随買いの持続力は強くない。",
+        "confidence": "mid",
+        "score_total": 68,
+        "score_breakdown": {
+          "catalyst": 24,
+          "evidence": 16,
+          "liquidity": 10,
+          "setup": 18
+        },
+        "sources": [
+          {
+            "type": "TDnet",
+            "publisher": "適時開示",
+            "title": "明豊ファシリ(1717) 配当予想の修正（増配）に関するお知らせ",
+            "time_jst": "2026-03-18T16:00:00+09:00",
+            "url": "https://minkabu.jp/news/4468885"
+          },
+          {
+            "type": "News",
+            "publisher": "みんかぶ",
+            "title": "明豊ファシリが３日続伸、２６年３月期配当予想を５０銭増額へ",
+            "time_jst": "2026-03-19T09:23:00+09:00",
+            "url": "https://s.minkabu.jp/news/4469253"
+          }
+        ]
+      }
+    ],
+    "deep_dive": {
+      "ticker": "6532",
+      "title": "ベイカレント：指数急落日こそ、還元強化の相対強を検証",
+      "sections": [
+        {
+          "h": "仮説",
+          "lines": [
+            "プライム市場の9割超が下げる局面では、業績よりも需給改善が即効性を持ちやすい。",
+            "4.3%上限の自社株買いと取得株の全数消却は、弱地合いでも相対強を支える材料になりやすい。"
+          ]
+        },
+        {
+          "h": "なぜ今日か",
+          "lines": [
+            "3月18日引け後に自社株買いと8月消却を開示し、19日朝のReutersではプライム値上がり率首位圏と確認された。",
+            "10時時点でも全面安のなかで数少ないプラス寄与銘柄に残っており、材料の効きが見えやすい。"
+          ]
+        },
+        {
+          "h": "確認ポイント",
+          "lines": [
+            "4,700円台近辺を維持し、寄り後の初動だけで終わらないか。",
+            "日銀・為替イベント待ちで全体が弱くても、出来高を伴った押し目買いが続くか。"
+          ]
+        },
+        {
+          "h": "反証条件",
+          "lines": [
+            "指数のリスクオフがさらに強まり、相対強が消えること。",
+            "4,600円台を割り込み、買い戻し一巡後の失速が明確になること。"
+          ]
+        },
+        {
+          "h": "主なリスク",
+          "lines": [
+            "取得開始は4月15日で、きょうの実需ではないため、期待先行の剥落に注意が必要。",
+            "FOMC後の米グロース安が波及すると、コンサル・ITサービス株として一緒に売られる可能性がある。"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "type": "TDnet",
+          "publisher": "適時開示",
+          "title": "ベイカレント(6532) 自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ",
+          "time_jst": "2026-03-18T15:30:00+09:00",
+          "url": "https://minkabu.jp/news/4468831"
+        },
+        {
+          "type": "News",
+          "publisher": "Reuters",
+          "title": "ホットストック：ベイカレントが逆行高、一時6％超上昇 自社株買いを好感",
+          "time_jst": "2026-03-19T09:18:00+09:00",
+          "url": "https://jp.reuters.com/markets/japan/NJDNIOV5QFPCPFWUUEZZVGUIFI-2026-03-19/"
+        },
+        {
+          "type": "News",
+          "publisher": "株探",
+          "title": "10時の日経平均は1476円安の5万3762円、アドテストが302.17円押し下げ",
+          "time_jst": "2026-03-19T10:01:00+09:00",
+          "url": "https://s.minkabu.jp/news/4469281"
+        }
+      ]
+    },
+    "no_trade_conditions": [
+      "日銀会合・植田会見でドル円が急反転し、寄り後の物色軸が全面的に入れ替わるとき",
+      "日経平均の下げがさらに拡大し、還元・増配銘柄でも相対強が続かないとき",
+      "ベイカレントやＴＯＡが初動高値を早々に割り込み、短期資金の撤退が明確なとき",
+      "原油が急反落し、ＩＮＰＥＸのマクロヘッジ前提が崩れるとき"
+    ],
+    "disclaimer": "投資助言ではなく、朝時点の材料整理です。最終判断はご自身で行ってください。"
+  }
+}
