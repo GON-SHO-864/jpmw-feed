@@ -4,18 +4,18 @@
   "timezone": "Asia/Tokyo",
   "latest": {
     "date_jst": "2026-03-23",
-    "edition": "midday",
-    "published_at_jst": "2026-03-23T11:39:45+09:00",
-    "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_midday_ja.json"
+    "edition": "morning_final",
+    "published_at_jst": "2026-03-23T10:35:23+09:00",
+    "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_final_ja.json"
   },
   "today": {
     "date_jst": "2026-03-23",
     "editions": [
       {
         "date_jst": "2026-03-23",
-        "edition": "midday",
-        "published_at_jst": "2026-03-23T11:39:45+09:00",
-        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_midday_ja.json"
+        "edition": "morning_final",
+        "published_at_jst": "2026-03-23T10:35:23+09:00",
+        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_final_ja.json"
       }
     ]
   },
