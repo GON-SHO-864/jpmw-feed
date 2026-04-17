@@ -6,6 +6,11 @@
       "date_jst": "2026-04-17",
       "editions": [
         {
+          "edition": "midday",
+          "published_at_jst": "2026-04-17T11:45:00+09:00",
+          "url": "https://gon-sho-864.github.io/jpmw-feed/feed/archive/2026-04-17/wrapper_midday_en.json"
+        },
+        {
           "edition": "morning_final",
           "published_at_jst": "2026-04-17T08:58:29+09:00",
           "url": "https://gon-sho-864.github.io/jpmw-feed/feed/archive/2026-04-17/wrapper_morning_final_en.json"
