@@ -3,6 +3,16 @@
   "market": "JP_STOCKS",
   "days": [
     {
+      "date_jst": "2026-04-29",
+      "editions": [
+        {
+          "edition": "midday",
+          "published_at_jst": "2026-04-29T13:27:04+09:00",
+          "url": "https://gon-sho-864.github.io/jpmw-feed/feed/archive/2026-04-29/wrapper_midday_ja.json"
+        }
+      ]
+    },
+    {
       "date_jst": "2026-04-27",
       "editions": [
         {
