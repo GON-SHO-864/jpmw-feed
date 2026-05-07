@@ -5,7 +5,7 @@
   "latest": {
     "date_jst": "2026-05-07",
     "edition": "morning_final",
-    "published_at_jst": "2026-05-07T09:12:00+09:00",
+    "published_at_jst": "2026-05-07T10:05:00+09:00",
     "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_final_en.json"
   },
   "today": {
@@ -14,7 +14,7 @@
       {
         "date_jst": "2026-05-07",
         "edition": "morning_final",
-        "published_at_jst": "2026-05-07T09:12:00+09:00",
+        "published_at_jst": "2026-05-07T10:05:00+09:00",
         "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_final_en.json"
       }
     ]

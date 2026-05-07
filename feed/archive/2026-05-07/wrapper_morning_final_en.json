@@ -3,11 +3,11 @@
   "market": "JP_STOCKS",
   "date_jst": "2026-05-07",
   "edition": "morning_final",
-  "published_at_jst": "2026-05-07T09:12:00+09:00",
+  "published_at_jst": "2026-05-07T10:05:00+09:00",
   "content": {
     "edition": "morning_final",
     "coverage_window_hours": 36,
-    "latest_source_time_jst": "2026-05-07T09:06:00+09:00",
+    "latest_source_time_jst": "2026-05-07T09:48:00+09:00",
     "audit": {
       "query_set_completed": true,
       "coverage_risk": "mid",
@@ -36,28 +36,28 @@
         },
         {
           "category": "major_news",
-          "query": "2026-05-07 今日の株式見通し 大幅続伸 米AI株高 イラン戦闘終結期待 日経平均 6万円 Reuters",
-          "top_source_url": "https://jp.reuters.com/markets/japan/22OFR4CLVBJEXB6S7RH43Y5OFA-2026-05-06/"
+          "query": "2026-05-07 日経平均 初の6万2000円台 AI 半導体 Reuters",
+          "top_source_url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/"
         },
         {
           "category": "major_news",
-          "query": "2026-05-07 東京株式 寄り付き 米ハイテク株高 日経平均 6万円 みんかぶ",
-          "top_source_url": "https://minkabu.jp/news/4502317"
+          "query": "2026-05-07 プラスアルファ オアシス 8.02 買い気配 4071",
+          "top_source_url": "https://finance.yahoo.co.jp/news/detail/11fc612e958499bf51cd94aee5f69b472f3a122b"
         }
       ]
     },
     "market": {
       "snapshot": [
         "Chicago Nikkei 225 futures settled at 62,110, up 2,690 versus Osaka. Cash equities reopened from Golden Week above the 60,000 line.",
-        "The Nikkei opened at 60,241 and by 09:06 JST had extended gains to more than 1,164 points.",
+        "The Nikkei opened at 60,241.31 and by 09:48 JST had pushed into the 62,000 area for the first time.",
         "U.S. equities rallied on AMD's outlook and the AI semiconductor theme, with the S&P 500 and Nasdaq setting new highs.",
         "Crude fell sharply on U.S.-Iran agreement hopes, while USD/JPY moved back toward the low 156s, easing the worst of the 'bad yen' pressure.",
-        "The tape is broadly risk-on, but the most actionable checks are still stock-specific: earnings, shareholder returns and activist filings from the holiday gap."
+        "The tape is broadly risk-on, but the most actionable checks are still stock-specific: AI leaders, earnings, shareholder returns and activist filings from the holiday gap."
       ],
       "drivers": [
         {
           "driver": "U.S. AI strength and lower crude drove a post-holiday risk-on open",
-          "why_today": "AMD's strong outlook lifted AI semiconductor names, while lower oil improved sentiment. The Nikkei reclaimed the 60,000 line and buying is concentrated in tech and reopening catch-up names.",
+          "why_today": "AMD's strong outlook lifted AI semiconductor names, while lower oil improved sentiment. The Nikkei reclaimed the 60,000 line and AI-related heavyweights are pushing the index higher.",
           "confidence": "high"
         },
         {
@@ -80,9 +80,9 @@
         "publisher": "Reuters",
         "url": "https://www.reuters.com/business/us-stock-index-futures-rise-middle-east-peace-hopes-ai-optimism-2026-05-06/",
         "related_tickers": [
-          "8035",
+          "9984",
           "6857",
-          "6724"
+          "8035"
         ]
       },
       {
@@ -92,7 +92,7 @@
         "publisher": "Reuters",
         "url": "https://jp.reuters.com/markets/japan/WULBOGHQAZNBJLYVRGO5XACDBY-2026-05-06/",
         "related_tickers": [
-          "6724",
+          "9984",
           "6141",
           "5857"
         ]
@@ -104,33 +104,33 @@
         "publisher": "フィスコ",
         "url": "https://s.minkabu.jp/news/4502315",
         "related_tickers": [
+          "9984",
           "6724",
-          "6141",
           "4071"
         ]
       },
       {
         "category": "major_news",
-        "headline": "Tokyo equities opened sharply higher, with the Nikkei starting at 60,241",
-        "time_jst": "2026-05-07T09:06:00+09:00",
-        "publisher": "みんかぶ",
-        "url": "https://minkabu.jp/news/4502317",
+        "headline": "The Nikkei opened sharply higher at 60,241.31, supported by U.S. tech strength and hopes for an end to the U.S.-Iran conflict",
+        "time_jst": "2026-05-07T09:07:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/",
         "related_tickers": [
-          "6724",
-          "6141",
-          "4071"
+          "9984",
+          "8035",
+          "6857"
         ]
       },
       {
         "category": "major_news",
-        "headline": "By 09:06 JST the Nikkei was up 1,164 points as post-open buying accelerated",
-        "time_jst": "2026-05-07T09:06:00+09:00",
-        "publisher": "フィスコ",
-        "url": "https://minkabu.jp/news/4502316",
+        "headline": "By 09:48 JST the Nikkei had entered the 62,000 area for the first time, while SoftBank Group was up more than 11%",
+        "time_jst": "2026-05-07T09:48:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/",
         "related_tickers": [
-          "6724",
-          "4071",
-          "5951"
+          "9984",
+          "8035",
+          "4062"
         ]
       },
       {
@@ -140,6 +140,7 @@
         "publisher": "フィスコ",
         "url": "https://minkabu.jp/news/4502288",
         "related_tickers": [
+          "9984",
           "6724",
           "6141"
         ]
@@ -150,6 +151,16 @@
         "time_jst": "2026-05-01T15:30:00+09:00",
         "publisher": "株探",
         "url": "https://kabutan.jp/news/marketnews/?b=n202605011120",
+        "related_tickers": [
+          "4071"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "Plus Alpha Consulting opened indicated higher after Oasis Management emerged as a major shareholder",
+        "time_jst": "2026-05-07T09:01:00+09:00",
+        "publisher": "トレーダーズ・ウェブ",
+        "url": "https://finance.yahoo.co.jp/news/detail/11fc612e958499bf51cd94aee5f69b472f3a122b",
         "related_tickers": [
           "4071"
         ]
@@ -203,21 +214,56 @@
         "related_tickers": [
           "5933"
         ]
-      },
-      {
-        "category": "major_news",
-        "headline": "M3 announced a 3.00% buyback worth up to 20 billion yen, but the stock opened indicated lower on May 7",
-        "time_jst": "2026-05-07T09:01:00+09:00",
-        "publisher": "トレーダーズ・ウェブ",
-        "url": "https://finance.yahoo.co.jp/news/detail/833b9d21953b63d9e6e27102c125af702334ebbe",
-        "related_tickers": [
-          "2413"
-        ]
       }
     ],
     "watchlist": [
       {
         "rank": 1,
+        "ticker": "9984",
+        "name": "SoftBank Group",
+        "tags": [
+          "AI semiconductors",
+          "Arm read-through",
+          "Index leader"
+        ],
+        "why_today": "AMD's earnings and the AI semiconductor rally pushed SoftBank Group more than 11% higher by 09:48 JST. It is the central stock behind the post-holiday risk-on move.",
+        "watchpoints": [
+          "Can it keep trading above the 6,000-yen area and extend gains",
+          "Does the Arm and AI-semiconductor read-through continue into the afternoon",
+          "Does turnover remain stock-specific rather than only index-driven"
+        ],
+        "falsifiers": [
+          "The AI semiconductor short-covering wave fades and the stock quickly gives back gains",
+          "Arm's volatile after-hours reaction starts weighing on sentiment"
+        ],
+        "red_team": "The stock has major index impact, but if the move is mostly short covering the reversal can be fast.",
+        "confidence": "high",
+        "score_total": 90,
+        "score_breakdown": {
+          "catalyst": 36,
+          "evidence": 18,
+          "liquidity": 20,
+          "setup": 16
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "〔マーケットアイ〕株式：日経平均は初の6万2000円台、ＡＩ・半導体株が大幅上昇",
+            "time_jst": "2026-05-07T09:48:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/"
+          },
+          {
+            "type": "News",
+            "publisher": "フィスコ",
+            "title": "前場に注目すべき3つのポイント～半導体やAI関連株に資金が集中しやすい～",
+            "time_jst": "2026-05-07T08:40:00+09:00",
+            "url": "https://minkabu.jp/news/4502288"
+          }
+        ]
+      },
+      {
+        "rank": 2,
         "ticker": "4071",
         "name": "Plus Alpha Consulting",
         "tags": [
@@ -262,7 +308,7 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 3,
         "ticker": "5857",
         "name": "ARE Holdings",
         "tags": [
@@ -307,7 +353,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "ticker": "6141",
         "name": "DMG Mori",
         "tags": [
@@ -352,7 +398,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "ticker": "6724",
         "name": "Seiko Epson",
         "tags": [
@@ -397,7 +443,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "ticker": "9682",
         "name": "DTS",
         "tags": [
@@ -442,7 +488,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "ticker": "5951",
         "name": "Dainichi",
         "tags": [
@@ -480,7 +526,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
         "ticker": "5933",
         "name": "Alinco",
         "tags": [
@@ -526,67 +572,74 @@
       }
     ],
     "deep_dive": {
-      "ticker": "4071",
-      "title": "Plus Alpha Consulting: test whether Oasis' 8.02% stake becomes more than an opening indication",
+      "ticker": "9984",
+      "title": "SoftBank Group: test whether the AI semiconductor rally can last beyond index-driven short covering",
       "sections": [
         {
           "h": "Thesis",
           "lines": [
-            "The core catalyst is Oasis Management's 8.02% holding and the inclusion of important proposals in the stated purpose.",
-            "Even in a strong post-holiday index rally, an activist filing can create a stock-specific reason to buy that is separate from index beta."
+            "The core catalyst is the AI semiconductor rally triggered by AMD's earnings and the read-through to Arm and AI infrastructure exposure.",
+            "Because SoftBank has major index impact, it is the most important single name for explaining the Nikkei's reclaiming of the 60,000 area."
           ]
         },
         {
           "h": "Why today",
           "lines": [
-            "The May 1 large-shareholding filing showed Oasis' 8.02% stake, and the stock opened indicated higher on May 7.",
-            "Because the market is broadly risk-on after Golden Week, the key is whether turnover remains specific to this activist angle rather than only a Growth-sector rebound."
+            "During Japan's Golden Week break, AMD-led AI semiconductor strength drove U.S. equities higher, and SoftBank was up more than 11% by 09:48 JST in Tokyo.",
+            "The Nikkei moved into the 62,000 area for the first time, with AI and semiconductor heavyweights providing the main index lift."
           ]
         },
         {
           "h": "What to watch",
           "lines": [
-            "Can the stock stay near the top of the gainers list after the opening indication clears.",
-            "Does the important-proposal angle keep being priced as a capital-policy or operating-improvement story."
+            "Can the stock hold above the 6,000-yen area instead of fading after the opening short-covering burst.",
+            "Does the Arm and AI-semiconductor read-through remain visible through stock-specific turnover into the afternoon."
           ]
         },
         {
           "h": "Falsifiers",
           "lines": [
-            "The filing fails to generate concrete proposal expectations.",
-            "Short-term money sells the opening premium quickly."
+            "The AI semiconductor buyback wave fades and SoftBank gives back gains quickly.",
+            "Arm's volatile after-hours reaction or weaker U.S. tech futures hit sentiment toward the whole AI complex."
           ]
         },
         {
           "h": "Risks",
           "lines": [
-            "Without a visible proposal, activist-driven moves can remain mostly headline and positioning trades.",
-            "If capital crowds into mega-cap tech, smaller Growth names with special-situation catalysts can get overshadowed."
+            "The stronger the index-driven flow, the more vulnerable the stock can become to profit-taking if the market turns.",
+            "The AI semiconductor catalyst is fresh, but the trade has a large positioning component, so price adjustments can be fast."
           ]
         }
       ],
       "sources": [
         {
           "type": "News",
-          "publisher": "株探",
-          "title": "Oasis Management Company Ltd.は保有割合が5％を超えたと報告",
-          "time_jst": "2026-05-01T15:30:00+09:00",
-          "url": "https://kabutan.jp/news/marketnews/?b=n202605011120"
+          "publisher": "Reuters",
+          "title": "〔マーケットアイ〕株式：日経平均は初の6万2000円台、ＡＩ・半導体株が大幅上昇",
+          "time_jst": "2026-05-07T09:48:00+09:00",
+          "url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/"
         },
         {
           "type": "News",
-          "publisher": "トレーダーズ・ウェブ",
-          "title": "プラスアルファ－買い気配 オアシスマネジメントが大株主に浮上 保有割合8.02％",
-          "time_jst": "2026-05-07T09:01:00+09:00",
-          "url": "https://finance.yahoo.co.jp/news/detail/11fc612e958499bf51cd94aee5f69b472f3a122b"
+          "publisher": "Reuters",
+          "title": "Wall St ends at record highs as AI cheer sparks AMD, chip rally",
+          "time_jst": "2026-05-07T06:30:00+09:00",
+          "url": "https://www.reuters.com/business/us-stock-index-futures-rise-middle-east-peace-hopes-ai-optimism-2026-05-06/"
+        },
+        {
+          "type": "News",
+          "publisher": "フィスコ",
+          "title": "前場に注目すべき3つのポイント～半導体やAI関連株に資金が集中しやすい～",
+          "time_jst": "2026-05-07T08:40:00+09:00",
+          "url": "https://minkabu.jp/news/4502288"
         }
       ]
     },
     "no_trade_conditions": [
-      "If the Nikkei cannot hold the 60,000 line and the post-holiday futures-led gap fades quickly",
+      "If the Nikkei cannot hold the 62,000 area and the post-holiday futures-led gap fades quickly",
       "If the U.S. tech rally fails to transmit and semiconductor and AI-related flows weaken sharply",
       "If USD/JPY moves back toward 160 and intervention fears plus import-cost concerns return at the same time",
-      "If top catalyst names such as Plus Alpha and ARE Holdings cannot hold their opening premiums and lose stock-specific momentum"
+      "If top catalyst names such as SoftBank Group and Plus Alpha cannot hold their opening premiums and lose stock-specific momentum"
     ],
     "disclaimer": "This is a morning market digest, not investment advice. Please make your own final decisions."
   }

@@ -3,11 +3,11 @@
   "market": "JP_STOCKS",
   "date_jst": "2026-05-07",
   "edition": "morning_final",
-  "published_at_jst": "2026-05-07T09:12:00+09:00",
+  "published_at_jst": "2026-05-07T10:05:00+09:00",
   "content": {
     "edition": "morning_final",
     "coverage_window_hours": 36,
-    "latest_source_time_jst": "2026-05-07T09:06:00+09:00",
+    "latest_source_time_jst": "2026-05-07T09:48:00+09:00",
     "audit": {
       "query_set_completed": true,
       "coverage_risk": "mid",
@@ -36,28 +36,28 @@
         },
         {
           "category": "major_news",
-          "query": "2026-05-07 今日の株式見通し 大幅続伸 米AI株高 イラン戦闘終結期待 日経平均 6万円 Reuters",
-          "top_source_url": "https://jp.reuters.com/markets/japan/22OFR4CLVBJEXB6S7RH43Y5OFA-2026-05-06/"
+          "query": "2026-05-07 日経平均 初の6万2000円台 AI 半導体 Reuters",
+          "top_source_url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/"
         },
         {
           "category": "major_news",
-          "query": "2026-05-07 東京株式 寄り付き 米ハイテク株高 日経平均 6万円 みんかぶ",
-          "top_source_url": "https://minkabu.jp/news/4502317"
+          "query": "2026-05-07 プラスアルファ オアシス 8.02 買い気配 4071",
+          "top_source_url": "https://finance.yahoo.co.jp/news/detail/11fc612e958499bf51cd94aee5f69b472f3a122b"
         }
       ]
     },
     "market": {
       "snapshot": [
-        "シカゴ日経225先物は大阪比2,690円高の62,110円。連休明けの現物は6万円台回復でスタート。",
-        "寄り付きの日経平均は60,241円、その後9時06分時点で1,164円高まで上げ幅を拡大。",
+        "シカゴ日経225先物は大阪比2,690円高の62,110円。連休明けの現物は6万円台を回復して始まった。",
+        "寄り付きの日経平均は60,241.31円、その後9時48分時点で6万2000円台に乗せた。",
         "米国株はAMD決算を起点にAI・半導体株が急伸し、S&P500とNASDAQは最高値を更新。",
         "原油は米イラン合意期待で急落。ドル円は156円台前半へ円高方向に巻き戻し、悪い円安の圧力は後退。",
-        "全面高の地合いだが、指数寄与のハイテクと、連休中に出た決算・還元・アクティビスト材料の確認が中心。"
+        "全面高の地合いだが、指数寄与のAI・半導体と、連休中に出た決算・還元・アクティビスト材料の確認が中心。"
       ],
       "drivers": [
         {
           "driver": "米AI株高と原油急落による大型連休明けのリスクオン",
-          "why_today": "AMDの強い見通しでAI半導体株が急騰し、原油は和平期待で下落。日経平均は6万円台を回復し、ハイテク中心に買いが先行している。",
+          "why_today": "AMDの強い見通しでAI半導体株が急騰し、原油は和平期待で下落。日経平均は6万円台を回復し、AI・半導体関連が指数を押し上げている。",
           "confidence": "high"
         },
         {
@@ -80,9 +80,9 @@
         "publisher": "Reuters",
         "url": "https://www.reuters.com/business/us-stock-index-futures-rise-middle-east-peace-hopes-ai-optimism-2026-05-06/",
         "related_tickers": [
-          "8035",
+          "9984",
           "6857",
-          "6724"
+          "8035"
         ]
       },
       {
@@ -92,7 +92,7 @@
         "publisher": "Reuters",
         "url": "https://jp.reuters.com/markets/japan/WULBOGHQAZNBJLYVRGO5XACDBY-2026-05-06/",
         "related_tickers": [
-          "6724",
+          "9984",
           "6141",
           "5857"
         ]
@@ -104,33 +104,33 @@
         "publisher": "フィスコ",
         "url": "https://s.minkabu.jp/news/4502315",
         "related_tickers": [
+          "9984",
           "6724",
-          "6141",
           "4071"
         ]
       },
       {
         "category": "major_news",
-        "headline": "7日の東京市場は大きく買い先行、寄り付きの日経平均は60,241円で開始",
-        "time_jst": "2026-05-07T09:06:00+09:00",
-        "publisher": "みんかぶ",
-        "url": "https://minkabu.jp/news/4502317",
+        "headline": "寄り付きの日経平均は60,241.31円で大幅続伸、米ハイテク株高と米イラン戦闘終結期待が支援",
+        "time_jst": "2026-05-07T09:07:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/",
         "related_tickers": [
-          "6724",
-          "6141",
-          "4071"
+          "9984",
+          "8035",
+          "6857"
         ]
       },
       {
         "category": "major_news",
-        "headline": "日経平均は9時06分時点で1,164円高、寄り後に上げ幅を拡大",
-        "time_jst": "2026-05-07T09:06:00+09:00",
-        "publisher": "フィスコ",
-        "url": "https://minkabu.jp/news/4502316",
+        "headline": "日経平均は9時48分時点で初の6万2000円台、ソフトバンクGは11％超高",
+        "time_jst": "2026-05-07T09:48:00+09:00",
+        "publisher": "Reuters",
+        "url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/",
         "related_tickers": [
-          "6724",
-          "4071",
-          "5951"
+          "9984",
+          "8035",
+          "4062"
         ]
       },
       {
@@ -140,6 +140,7 @@
         "publisher": "フィスコ",
         "url": "https://minkabu.jp/news/4502288",
         "related_tickers": [
+          "9984",
           "6724",
           "6141"
         ]
@@ -150,6 +151,16 @@
         "time_jst": "2026-05-01T15:30:00+09:00",
         "publisher": "株探",
         "url": "https://kabutan.jp/news/marketnews/?b=n202605011120",
+        "related_tickers": [
+          "4071"
+        ]
+      },
+      {
+        "category": "major_news",
+        "headline": "プラスアルファ・コンサルティングはオアシスマネジメントの大株主浮上を材料に買い気配",
+        "time_jst": "2026-05-07T09:01:00+09:00",
+        "publisher": "トレーダーズ・ウェブ",
+        "url": "https://finance.yahoo.co.jp/news/detail/11fc612e958499bf51cd94aee5f69b472f3a122b",
         "related_tickers": [
           "4071"
         ]
@@ -203,21 +214,56 @@
         "related_tickers": [
           "5933"
         ]
-      },
-      {
-        "category": "major_news",
-        "headline": "エムスリーは3.00％・200億円上限の自社株買いを発表したが、7日朝は売り気配で開始",
-        "time_jst": "2026-05-07T09:01:00+09:00",
-        "publisher": "トレーダーズ・ウェブ",
-        "url": "https://finance.yahoo.co.jp/news/detail/833b9d21953b63d9e6e27102c125af702334ebbe",
-        "related_tickers": [
-          "2413"
-        ]
       }
     ],
     "watchlist": [
       {
         "rank": 1,
+        "ticker": "9984",
+        "name": "ソフトバンクグループ",
+        "tags": [
+          "AI半導体",
+          "Arm連想",
+          "指数主役"
+        ],
+        "why_today": "AMD決算とAI半導体株高を受け、9時48分時点で11％超高。指数寄与度も高く、連休明けリスクオンの中心。",
+        "watchpoints": [
+          "6,000円台を維持して上値追いが続くか",
+          "Arm・AI半導体の連想買いが後場まで続くか",
+          "指数主導ではなく同社固有の売買代金が残るか"
+        ],
+        "falsifiers": [
+          "AI半導体の買い戻しが一巡し急速に上げ幅を縮める",
+          "Arm時間外の荒い値動きが重しになる"
+        ],
+        "red_team": "指数寄与が大きく値幅は出るが、ショートカバー色が強い場合は反転も速い。",
+        "confidence": "high",
+        "score_total": 90,
+        "score_breakdown": {
+          "catalyst": 36,
+          "evidence": 18,
+          "liquidity": 20,
+          "setup": 16
+        },
+        "sources": [
+          {
+            "type": "News",
+            "publisher": "Reuters",
+            "title": "〔マーケットアイ〕株式：日経平均は初の6万2000円台、ＡＩ・半導体株が大幅上昇",
+            "time_jst": "2026-05-07T09:48:00+09:00",
+            "url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/"
+          },
+          {
+            "type": "News",
+            "publisher": "フィスコ",
+            "title": "前場に注目すべき3つのポイント～半導体やAI関連株に資金が集中しやすい～",
+            "time_jst": "2026-05-07T08:40:00+09:00",
+            "url": "https://minkabu.jp/news/4502288"
+          }
+        ]
+      },
+      {
+        "rank": 2,
         "ticker": "4071",
         "name": "プラスアルファ・コンサルティング",
         "tags": [
@@ -262,7 +308,7 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 3,
         "ticker": "5857",
         "name": "ＡＲＥホールディングス",
         "tags": [
@@ -307,7 +353,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "ticker": "6141",
         "name": "ＤＭＧ森精機",
         "tags": [
@@ -352,7 +398,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "ticker": "6724",
         "name": "セイコーエプソン",
         "tags": [
@@ -397,7 +443,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "ticker": "9682",
         "name": "ＤＴＳ",
         "tags": [
@@ -442,7 +488,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "ticker": "5951",
         "name": "ダイニチ工業",
         "tags": [
@@ -480,7 +526,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
         "ticker": "5933",
         "name": "アルインコ",
         "tags": [
@@ -526,67 +572,74 @@
       }
     ],
     "deep_dive": {
-      "ticker": "4071",
-      "title": "PAコンサル：オアシス8.02％保有が、単なる買い気配で終わらないかを確認",
+      "ticker": "9984",
+      "title": "ソフトバンクG：AI半導体ラリーが、指数主導の買い戻しを超えて続くかを確認",
       "sections": [
         {
           "h": "仮説",
           "lines": [
-            "今回の核は、オアシス・マネジメントの8.02％保有と、保有目的に重要提案行為が含まれる点にある。",
-            "連休明けで指数が大幅高になる中でも、アクティビスト材料は指数βと別の買い理由を作りやすい。"
+            "今回の核は、AMD決算を起点にしたAI半導体株高と、Arm・AI投資への連想買いにある。",
+            "指数寄与度が大きく、日経平均の6万円台回復を説明する上で最も確認優先度が高い。"
           ]
         },
         {
           "h": "なぜ今日か",
           "lines": [
-            "5月1日受付の大量保有報告書でオアシスの保有比率8.02％が判明し、5月7日朝は買い気配で始まった。",
-            "大型連休明けの全面高では、買い戻しと個別材料が混ざるため、同社固有の売買代金が残るかが重要になる。"
+            "大型連休中の米国市場でAMDを起点にAI半導体株が急伸し、東京市場では9時48分時点でソフトバンクGが11％超高となった。",
+            "日経平均は初の6万2000円台に乗せ、指数寄与度の大きいAI・半導体関連が相場を押し上げている。"
           ]
         },
         {
           "h": "見るポイント",
           "lines": [
-            "買い気配後も上昇率上位を維持し、寄り付き直後の初動だけで終わらないか。",
-            "保有目的の重要提案行為が、資本政策・経営改善期待として継続的に評価されるか。"
+            "6,000円台を維持し、寄り付き直後のショートカバーだけで終わらないか。",
+            "ArmやAI半導体の連想買いが、後場も同社固有の売買代金として残るか。"
           ]
         },
         {
           "h": "反証条件",
           "lines": [
-            "保有報告だけで具体的な提案期待が広がらないこと。",
-            "寄り後に短期資金の利食いが優勢になり、前場のプレミアムを失うこと。"
+            "AI半導体の買い戻しが一巡し、ソフトバンクGが急速に上げ幅を縮めること。",
+            "Arm時間外や米ハイテク先物の荒い値動きが嫌気され、指数寄与銘柄が売られること。"
           ]
         },
         {
           "h": "主なリスク",
           "lines": [
-            "具体提案が未確認の段階では、アクティビスト思惑だけで値幅が先行しやすい。",
-            "指数全面高で大型ハイテクに資金が集中すると、中小型グロースの材料株は相対的に埋もれやすい。"
+            "指数主導の買い戻しが強いほど、反転時には同社も利益確定の対象になりやすい。",
+            "AI半導体ラリーは材料の鮮度が高い一方、需給色が強いため値幅調整も速い。"
           ]
         }
       ],
       "sources": [
         {
           "type": "News",
-          "publisher": "株探",
-          "title": "Oasis Management Company Ltd.は保有割合が5％を超えたと報告",
-          "time_jst": "2026-05-01T15:30:00+09:00",
-          "url": "https://kabutan.jp/news/marketnews/?b=n202605011120"
+          "publisher": "Reuters",
+          "title": "〔マーケットアイ〕株式：日経平均は初の6万2000円台、ＡＩ・半導体株が大幅上昇",
+          "time_jst": "2026-05-07T09:48:00+09:00",
+          "url": "https://jp.reuters.com/markets/japan/GXA4G3EGURLETJETRG763C6ABA-2026-05-07/"
         },
         {
           "type": "News",
-          "publisher": "トレーダーズ・ウェブ",
-          "title": "プラスアルファ－買い気配 オアシスマネジメントが大株主に浮上 保有割合8.02％",
-          "time_jst": "2026-05-07T09:01:00+09:00",
-          "url": "https://finance.yahoo.co.jp/news/detail/11fc612e958499bf51cd94aee5f69b472f3a122b"
+          "publisher": "Reuters",
+          "title": "Wall St ends at record highs as AI cheer sparks AMD, chip rally",
+          "time_jst": "2026-05-07T06:30:00+09:00",
+          "url": "https://www.reuters.com/business/us-stock-index-futures-rise-middle-east-peace-hopes-ai-optimism-2026-05-06/"
+        },
+        {
+          "type": "News",
+          "publisher": "フィスコ",
+          "title": "前場に注目すべき3つのポイント～半導体やAI関連株に資金が集中しやすい～",
+          "time_jst": "2026-05-07T08:40:00+09:00",
+          "url": "https://minkabu.jp/news/4502288"
         }
       ]
     },
     "no_trade_conditions": [
-      "日経平均が6万円台を維持できず、連休明けの先物主導ギャップが急速に剥落するとき",
+      "日経平均が6万2000円台を維持できず、連休明けの先物主導ギャップが急速に剥落するとき",
       "米ハイテク株高の波及が失速し、半導体・AI関連への資金集中が崩れるとき",
       "ドル円が再び160円方向へ戻し、介入警戒と輸入コスト懸念が同時に強まるとき",
-      "PAコンサルやAREHDなど上位材料株が寄り付きプレミアムを維持できず、全面高の中でも個別性が消えるとき"
+      "ソフトバンクGやPAコンサルなど上位材料株が寄り付きプレミアムを維持できず、全面高の中でも個別性が消えるとき"
     ],
     "disclaimer": "投資助言ではなく、朝時点で確認優先度の高い材料整理です。最終判断はご自身で行ってください。"
   }
