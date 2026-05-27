@@ -3,19 +3,19 @@
   "market": "JP_STOCKS",
   "timezone": "Asia/Tokyo",
   "latest": {
-    "date_jst": "2026-05-26",
-    "edition": "morning_final",
-    "published_at_jst": "2026-05-26T10:25:00+09:00",
-    "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_final_ja.json"
+    "date_jst": "2026-05-27",
+    "edition": "midday",
+    "published_at_jst": "2026-05-27T11:45:00+09:00",
+    "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_midday_ja.json"
   },
   "today": {
-    "date_jst": "2026-05-26",
+    "date_jst": "2026-05-27",
     "editions": [
       {
-        "date_jst": "2026-05-26",
-        "edition": "morning_final",
-        "published_at_jst": "2026-05-26T10:25:00+09:00",
-        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_morning_final_ja.json"
+        "date_jst": "2026-05-27",
+        "edition": "midday",
+        "published_at_jst": "2026-05-27T11:45:00+09:00",
+        "url": "https://gon-sho-864.github.io/jpmw-feed/feed/wrapper_midday_ja.json"
       }
     ]
   },
